@@ -1,0 +1,57 @@
+/*
+* @Author: Administrator
+* @Date:   2016-08-13 20:25:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-08-13 22:09:26
+*/
+body{
+	padding: 50px;
+	font: 14px Arial;
+}
+a{
+	color : #00B7FF;
+}
+#content{
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#room{
+	background: #ddd;
+	margin-bottom: 1em;
+}
+
+#message{
+	width: 690px;
+	height: 300px;
+	overflow: auto;
+	background: #eee;
+	margin-bottom: 1em;
+	margin-right: 10px;
+}
+
+#room-list{
+	float : right;
+	width: 100px;
+	height: 300px;
+	overflow: auto;
+}
+
+#room-list div{
+	border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover{
+	background: #ddd;
+}
+
+#send-message{
+	width: 700px;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+
+#help{
+	font: 10px Arial;
+}
