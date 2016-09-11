@@ -1,0 +1,2661 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'thinking-in-react' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of C:\Users\Administrator\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\Administrator\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'thinking-in-react', null ]
+7 verbose cache add spec thinking-in-react
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'thinking-in-react',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'thinking-in-react',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed thinking-in-react@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for thinking-in-react
+11 info addNameTag [ 'thinking-in-react', 'latest' ]
+12 silly mapToRegistry name thinking-in-react
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npm.taobao.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'thinking-in-react',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'thinking-in-react',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npm.taobao.org/thinking-in-react
+17 verbose addNameTag registry:https://registry.npm.taobao.org/thinking-in-react not in flight; fetching
+18 verbose request uri https://registry.npm.taobao.org/thinking-in-react
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 00:10:34
+21 verbose request id b3411247efb6f2e8
+22 http request GET https://registry.npm.taobao.org/thinking-in-react
+23 http 200 https://registry.npm.taobao.org/thinking-in-react
+24 verbose headers { date: 'Thu, 08 Sep 2016 16:10:35 GMT',
+24 verbose headers   'content-type': 'application/json; charset=utf-8',
+24 verbose headers   'content-length': '18259',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-current-requests': '1',
+24 verbose headers   etag: '"4753-GEubvGc9B2pO6idWGLKNNA"',
+24 verbose headers   'x-readtime': '17' }
+25 silly get cb [ 200,
+25 silly get   { date: 'Thu, 08 Sep 2016 16:10:35 GMT',
+25 silly get     'content-type': 'application/json; charset=utf-8',
+25 silly get     'content-length': '18259',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-current-requests': '1',
+25 silly get     etag: '"4753-GEubvGc9B2pO6idWGLKNNA"',
+25 silly get     'x-readtime': '17' } ]
+26 verbose get saving thinking-in-react to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\thinking-in-react\.cache.json
+27 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameTag next cb for thinking-in-react with tag latest
+29 silly addNamed thinking-in-react@3.1.1
+30 verbose addNamed "3.1.1" is a plain semver version for thinking-in-react
+31 silly mapToRegistry name thinking-in-react
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npm.taobao.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'thinking-in-react',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'thinking-in-react',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npm.taobao.org/thinking-in-react
+36 verbose addRemoteTarball https://registry.npm.taobao.org/thinking-in-react/download/thinking-in-react-3.1.1.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/thinking-in-react/download/thinking-in-react-3.1.1.tgz',
+37 verbose addRemoteTarball   'abee5067cc2efa778238802184dfa8e75d859282' ]
+38 info retry fetch attempt 1 at 00:10:35
+39 info attempt registry request try #1 at 00:10:35
+40 http fetch GET https://registry.npm.taobao.org/thinking-in-react/download/thinking-in-react-3.1.1.tgz
+41 http fetch 200 https://registry.npm.taobao.org/thinking-in-react/download/thinking-in-react-3.1.1.tgz
+42 silly fetchAndShaCheck shasum abee5067cc2efa778238802184dfa8e75d859282
+43 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\thinking-in-react\download\thinking-in-react-3.1.1.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for thinking-in-react@3.1.1
+45 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 silly cache afterAdd thinking-in-react@3.1.1
+47 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\thinking-in-react\3.1.1\package\package.json not in flight; writing
+48 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\thinking-in-react\3.1.1\package\package.json written
+50 silly install resolved [ { name: 'thinking-in-react',
+50 silly install resolved     version: '3.1.1',
+50 silly install resolved     description: 'Thinking in React workshopper',
+50 silly install resolved     bin: { 'thinking-in-react': './index.js' },
+50 silly install resolved     scripts: { test: 'mocha', start: 'node server.js' },
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'git://github.com/asbjornenge/thinking-in-react.git' },
+50 silly install resolved     keywords: [ 'react', 'workshopper', 'workshopper-module' ],
+50 silly install resolved     author: { name: 'Asbjorn Enge', email: 'asbjorn@hanafjedle.net' },
+50 silly install resolved     license: 'BSD',
+50 silly install resolved     bugs: { url: 'https://github.com/asbjornenge/thinking-in-react/issues' },
+50 silly install resolved     homepage: 'https://github.com/asbjornenge/thinking-in-react',
+50 silly install resolved     dependencies:
+50 silly install resolved      { babel: '^5.8.23',
+50 silly install resolved        babelify: '^6.3.0',
+50 silly install resolved        blessed: '0.0.37',
+50 silly install resolved        browserify: '^11.1.0',
+50 silly install resolved        chalk: '^0.4.0',
+50 silly install resolved        'concat-stream': '^1.4.5',
+50 silly install resolved        envify: '^1.2.1',
+50 silly install resolved        jsdom: '^7.0.2',
+50 silly install resolved        mocha: '^1.19.0',
+50 silly install resolved        react: '^15.1.0',
+50 silly install resolved        'react-addons-test-utils': '^15.1.0',
+50 silly install resolved        'react-dom': '^15.1.0',
+50 silly install resolved        workshopper: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+50 silly install resolved        'workshopper-exercise': '^0.2.3',
+50 silly install resolved        'workshopper-wrappedexec': '^0.1.1' },
+50 silly install resolved     gitHead: '0913024861460280d389445af34c7141c2d0d063',
+50 silly install resolved     _id: 'thinking-in-react@3.1.1',
+50 silly install resolved     _shasum: 'abee5067cc2efa778238802184dfa8e75d859282',
+50 silly install resolved     _from: 'thinking-in-react@latest',
+50 silly install resolved     _npmVersion: '3.8.6',
+50 silly install resolved     _nodeVersion: '5.11.1',
+50 silly install resolved     _npmUser: { name: 'asbjornenge', email: 'asbjorn@asbjornenge.com' },
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'abee5067cc2efa778238802184dfa8e75d859282',
+50 silly install resolved        size: 15852,
+50 silly install resolved        noattachment: false,
+50 silly install resolved        tarball: 'http://registry.npm.taobao.org/thinking-in-react/download/thinking-in-react-3.1.1.tgz' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     _npmOperationalInternal:
+50 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+50 silly install resolved        tmp: 'tmp/thinking-in-react-3.1.1.tgz_1465048821523_0.5485616596415639' },
+50 silly install resolved     directories: {},
+50 silly install resolved     publish_time: 1465048823970,
+50 silly install resolved     _cnpm_publish_time: 1465048823970,
+50 silly install resolved     _resolved: 'https://registry.npm.taobao.org/thinking-in-react/download/thinking-in-react-3.1.1.tgz' } ]
+51 info install thinking-in-react@3.1.1 into C:\Users\Administrator\AppData\Roaming\npm
+52 info installOne thinking-in-react@3.1.1
+53 verbose installOne of thinking-in-react to C:\Users\Administrator\AppData\Roaming\npm not in flight; installing
+54 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+55 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\thinking-in-react-8d00e58518137ccf.lock for C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+56 silly install write writing thinking-in-react 3.1.1 to C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+57 verbose unbuild node_modules\thinking-in-react
+58 silly gentlyRm C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react is being purged from base C:\Users\Administrator\AppData\Roaming\npm
+59 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+60 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\thinking-in-react\3.1.1\package.tgz
+61 verbose tar unpacking to C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+62 silly gentlyRm C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react is being purged
+63 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+64 silly gunzTarPerm modes [ '777', '666' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+71 silly gunzTarPerm extractEntry index.js
+72 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+73 silly gunzTarPerm extractEntry server.js
+74 silly gunzTarPerm modified mode [ 'server.js', 436, 438 ]
+75 silly gunzTarPerm extractEntry thinking-in-react.js
+76 silly gunzTarPerm modified mode [ 'thinking-in-react.js', 436, 438 ]
+77 silly gunzTarPerm extractEntry exercises/spec_4.js
+78 silly gunzTarPerm modified mode [ 'exercises/spec_4.js', 436, 438 ]
+79 silly gunzTarPerm extractEntry exercises/mocha_exercise.js
+80 silly gunzTarPerm modified mode [ 'exercises/mocha_exercise.js', 436, 438 ]
+81 silly gunzTarPerm extractEntry exercises/render.js
+82 silly gunzTarPerm modified mode [ 'exercises/render.js', 436, 438 ]
+83 silly gunzTarPerm extractEntry exercises/spec_2_1.js
+84 silly gunzTarPerm modified mode [ 'exercises/spec_2_1.js', 436, 438 ]
+85 silly gunzTarPerm extractEntry exercises/spec_2_2.js
+86 silly gunzTarPerm modified mode [ 'exercises/spec_2_2.js', 436, 438 ]
+87 silly gunzTarPerm extractEntry exercises/spec_2_3.js
+88 silly gunzTarPerm modified mode [ 'exercises/spec_2_3.js', 436, 438 ]
+89 silly gunzTarPerm extractEntry exercises/spec_5.js
+90 silly gunzTarPerm modified mode [ 'exercises/spec_5.js', 436, 438 ]
+91 silly gunzTarPerm extractEntry exercises/products.json
+92 silly gunzTarPerm modified mode [ 'exercises/products.json', 420, 438 ]
+93 silly gunzTarPerm extractEntry exercises/menu.json
+94 silly gunzTarPerm modified mode [ 'exercises/menu.json', 420, 438 ]
+95 silly gunzTarPerm extractEntry exercises/final_words.md
+96 silly gunzTarPerm modified mode [ 'exercises/final_words.md', 420, 438 ]
+97 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/components.js
+98 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/components.js',
+98 silly gunzTarPerm   420,
+98 silly gunzTarPerm   438 ]
+99 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/exercise.js
+100 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/exercise.js',
+100 silly gunzTarPerm   420,
+100 silly gunzTarPerm   438 ]
+101 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/presentation.js
+102 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/presentation.js',
+102 silly gunzTarPerm   436,
+102 silly gunzTarPerm   438 ]
+103 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/problem.md
+104 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/problem.md',
+104 silly gunzTarPerm   436,
+104 silly gunzTarPerm   438 ]
+105 silly gunzTarPerm extractEntry exercises/step_1__break_the_ui_into_a_component_hierarchy/solution/solution.js
+106 silly gunzTarPerm modified mode [ 'exercises/step_1__break_the_ui_into_a_component_hierarchy/solution/solution.js',
+106 silly gunzTarPerm   420,
+106 silly gunzTarPerm   438 ]
+107 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/exercise.js
+108 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/exercise.js',
+108 silly gunzTarPerm   420,
+108 silly gunzTarPerm   438 ]
+109 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/spec.js
+110 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/spec.js',
+110 silly gunzTarPerm   420,
+110 silly gunzTarPerm   438 ]
+111 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/problem.md
+112 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/problem.md',
+112 silly gunzTarPerm   436,
+112 silly gunzTarPerm   438 ]
+113 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_1/solution/solution.js
+114 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_1/solution/solution.js',
+114 silly gunzTarPerm   436,
+114 silly gunzTarPerm   438 ]
+115 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/exercise.js
+116 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/exercise.js',
+116 silly gunzTarPerm   420,
+116 silly gunzTarPerm   438 ]
+117 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/spec.js
+118 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/spec.js',
+118 silly gunzTarPerm   436,
+118 silly gunzTarPerm   438 ]
+119 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/problem.md
+120 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/problem.md',
+120 silly gunzTarPerm   436,
+120 silly gunzTarPerm   438 ]
+121 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_2/solution/solution.js
+122 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_2/solution/solution.js',
+122 silly gunzTarPerm   436,
+122 silly gunzTarPerm   438 ]
+123 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/exercise.js
+124 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/exercise.js',
+124 silly gunzTarPerm   420,
+124 silly gunzTarPerm   438 ]
+125 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/spec.js
+126 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/spec.js',
+126 silly gunzTarPerm   420,
+126 silly gunzTarPerm   438 ]
+127 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/problem.md
+128 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/problem.md',
+128 silly gunzTarPerm   420,
+128 silly gunzTarPerm   438 ]
+129 silly gunzTarPerm extractEntry exercises/step_2__build_static_version_in_react__part_3/solution/solution.js
+130 silly gunzTarPerm modified mode [ 'exercises/step_2__build_static_version_in_react__part_3/solution/solution.js',
+130 silly gunzTarPerm   436,
+130 silly gunzTarPerm   438 ]
+131 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/bingo.js
+132 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/bingo.js',
+132 silly gunzTarPerm   420,
+132 silly gunzTarPerm   438 ]
+133 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/exercise.js
+134 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/exercise.js',
+134 silly gunzTarPerm   420,
+134 silly gunzTarPerm   438 ]
+135 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/bingostates.json
+136 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/bingostates.json',
+136 silly gunzTarPerm   420,
+136 silly gunzTarPerm   438 ]
+137 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/problem.md
+138 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/problem.md',
+138 silly gunzTarPerm   420,
+138 silly gunzTarPerm   438 ]
+139 silly gunzTarPerm extractEntry exercises/step_3__identify_the_minimal_repr_of_ui_state/solution/solution.js
+140 silly gunzTarPerm modified mode [ 'exercises/step_3__identify_the_minimal_repr_of_ui_state/solution/solution.js',
+140 silly gunzTarPerm   436,
+140 silly gunzTarPerm   438 ]
+141 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/exercise.js
+142 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/exercise.js',
+142 silly gunzTarPerm   420,
+142 silly gunzTarPerm   438 ]
+143 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/spec.js
+144 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/spec.js',
+144 silly gunzTarPerm   420,
+144 silly gunzTarPerm   438 ]
+145 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/problem.md
+146 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/problem.md',
+146 silly gunzTarPerm   420,
+146 silly gunzTarPerm   438 ]
+147 silly gunzTarPerm extractEntry exercises/step_4__identify_where_your_state_should_live/solution/solution.js
+148 silly gunzTarPerm modified mode [ 'exercises/step_4__identify_where_your_state_should_live/solution/solution.js',
+148 silly gunzTarPerm   436,
+148 silly gunzTarPerm   438 ]
+149 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/exercise.js
+150 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/exercise.js',
+150 silly gunzTarPerm   420,
+150 silly gunzTarPerm   438 ]
+151 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/spec.js
+152 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/spec.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/problem.md
+154 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/problem.md',
+154 silly gunzTarPerm   436,
+154 silly gunzTarPerm   438 ]
+155 silly gunzTarPerm extractEntry exercises/step_5__add_inverse_data_flow/solution/solution.js
+156 silly gunzTarPerm modified mode [ 'exercises/step_5__add_inverse_data_flow/solution/solution.js',
+156 silly gunzTarPerm   436,
+156 silly gunzTarPerm   438 ]
+157 silly gunzTarPerm extractEntry static/workshop_render.js
+158 silly gunzTarPerm modified mode [ 'static/workshop_render.js', 436, 438 ]
+159 silly gunzTarPerm extractEntry static/index.html
+160 silly gunzTarPerm modified mode [ 'static/index.html', 420, 438 ]
+161 verbose write writing to C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react\package.json
+162 info preinstall thinking-in-react@3.1.1
+163 verbose readDependencies loading dependencies from C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react\package.json
+164 silly prepareForInstallMany adding babel@^5.8.23 from thinking-in-react dependencies
+165 silly prepareForInstallMany adding babelify@^6.3.0 from thinking-in-react dependencies
+166 silly prepareForInstallMany adding blessed@0.0.37 from thinking-in-react dependencies
+167 silly prepareForInstallMany adding browserify@^11.1.0 from thinking-in-react dependencies
+168 silly prepareForInstallMany adding chalk@^0.4.0 from thinking-in-react dependencies
+169 silly prepareForInstallMany adding concat-stream@^1.4.5 from thinking-in-react dependencies
+170 silly prepareForInstallMany adding envify@^1.2.1 from thinking-in-react dependencies
+171 silly prepareForInstallMany adding jsdom@^7.0.2 from thinking-in-react dependencies
+172 silly prepareForInstallMany adding mocha@^1.19.0 from thinking-in-react dependencies
+173 silly prepareForInstallMany adding react@^15.1.0 from thinking-in-react dependencies
+174 silly prepareForInstallMany adding react-addons-test-utils@^15.1.0 from thinking-in-react dependencies
+175 silly prepareForInstallMany adding react-dom@^15.1.0 from thinking-in-react dependencies
+176 silly prepareForInstallMany adding workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b from thinking-in-react dependencies
+177 silly prepareForInstallMany adding workshopper-exercise@^0.2.3 from thinking-in-react dependencies
+178 silly prepareForInstallMany adding workshopper-wrappedexec@^0.1.1 from thinking-in-react dependencies
+179 verbose readDependencies loading dependencies from C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react\package.json
+180 silly cache add args [ 'chalk@^0.4.0', null ]
+181 verbose cache add spec chalk@^0.4.0
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'chalk@^0.4.0',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'chalk',
+182 silly cache add   rawSpec: '^0.4.0',
+182 silly cache add   spec: '>=0.4.0 <0.5.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed chalk@>=0.4.0 <0.5.0
+184 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for chalk
+185 silly addNameRange { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: false }
+186 silly mapToRegistry name chalk
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npm.taobao.org/
+189 silly mapToRegistry data Result {
+189 silly mapToRegistry   raw: 'chalk',
+189 silly mapToRegistry   scope: null,
+189 silly mapToRegistry   name: 'chalk',
+189 silly mapToRegistry   rawSpec: '',
+189 silly mapToRegistry   spec: 'latest',
+189 silly mapToRegistry   type: 'tag' }
+190 silly mapToRegistry uri https://registry.npm.taobao.org/chalk
+191 verbose addNameRange registry:https://registry.npm.taobao.org/chalk not in flight; fetching
+192 silly cache add args [ 'concat-stream@^1.4.5', null ]
+193 verbose cache add spec concat-stream@^1.4.5
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'concat-stream@^1.4.5',
+194 silly cache add   scope: null,
+194 silly cache add   name: 'concat-stream',
+194 silly cache add   rawSpec: '^1.4.5',
+194 silly cache add   spec: '>=1.4.5 <2.0.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed concat-stream@>=1.4.5 <2.0.0
+196 verbose addNamed ">=1.4.5 <2.0.0" is a valid semver range for concat-stream
+197 silly addNameRange { name: 'concat-stream',
+197 silly addNameRange   range: '>=1.4.5 <2.0.0',
+197 silly addNameRange   hasData: false }
+198 silly mapToRegistry name concat-stream
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npm.taobao.org/
+201 silly mapToRegistry data Result {
+201 silly mapToRegistry   raw: 'concat-stream',
+201 silly mapToRegistry   scope: null,
+201 silly mapToRegistry   name: 'concat-stream',
+201 silly mapToRegistry   rawSpec: '',
+201 silly mapToRegistry   spec: 'latest',
+201 silly mapToRegistry   type: 'tag' }
+202 silly mapToRegistry uri https://registry.npm.taobao.org/concat-stream
+203 verbose addNameRange registry:https://registry.npm.taobao.org/concat-stream not in flight; fetching
+204 silly cache add args [ 'envify@^1.2.1', null ]
+205 verbose cache add spec envify@^1.2.1
+206 silly cache add parsed spec Result {
+206 silly cache add   raw: 'envify@^1.2.1',
+206 silly cache add   scope: null,
+206 silly cache add   name: 'envify',
+206 silly cache add   rawSpec: '^1.2.1',
+206 silly cache add   spec: '>=1.2.1 <2.0.0',
+206 silly cache add   type: 'range' }
+207 silly addNamed envify@>=1.2.1 <2.0.0
+208 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for envify
+209 silly addNameRange { name: 'envify', range: '>=1.2.1 <2.0.0', hasData: false }
+210 silly mapToRegistry name envify
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npm.taobao.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'envify',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   name: 'envify',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npm.taobao.org/envify
+215 verbose addNameRange registry:https://registry.npm.taobao.org/envify not in flight; fetching
+216 silly cache add args [ 'jsdom@^7.0.2', null ]
+217 verbose cache add spec jsdom@^7.0.2
+218 silly cache add parsed spec Result {
+218 silly cache add   raw: 'jsdom@^7.0.2',
+218 silly cache add   scope: null,
+218 silly cache add   name: 'jsdom',
+218 silly cache add   rawSpec: '^7.0.2',
+218 silly cache add   spec: '>=7.0.2 <8.0.0',
+218 silly cache add   type: 'range' }
+219 silly addNamed jsdom@>=7.0.2 <8.0.0
+220 verbose addNamed ">=7.0.2 <8.0.0" is a valid semver range for jsdom
+221 silly addNameRange { name: 'jsdom', range: '>=7.0.2 <8.0.0', hasData: false }
+222 silly mapToRegistry name jsdom
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npm.taobao.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: 'jsdom',
+225 silly mapToRegistry   scope: null,
+225 silly mapToRegistry   name: 'jsdom',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npm.taobao.org/jsdom
+227 verbose addNameRange registry:https://registry.npm.taobao.org/jsdom not in flight; fetching
+228 silly cache add args [ 'mocha@^1.19.0', null ]
+229 verbose cache add spec mocha@^1.19.0
+230 silly cache add parsed spec Result {
+230 silly cache add   raw: 'mocha@^1.19.0',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'mocha',
+230 silly cache add   rawSpec: '^1.19.0',
+230 silly cache add   spec: '>=1.19.0 <2.0.0',
+230 silly cache add   type: 'range' }
+231 silly addNamed mocha@>=1.19.0 <2.0.0
+232 verbose addNamed ">=1.19.0 <2.0.0" is a valid semver range for mocha
+233 silly addNameRange { name: 'mocha', range: '>=1.19.0 <2.0.0', hasData: false }
+234 silly mapToRegistry name mocha
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npm.taobao.org/
+237 silly mapToRegistry data Result {
+237 silly mapToRegistry   raw: 'mocha',
+237 silly mapToRegistry   scope: null,
+237 silly mapToRegistry   name: 'mocha',
+237 silly mapToRegistry   rawSpec: '',
+237 silly mapToRegistry   spec: 'latest',
+237 silly mapToRegistry   type: 'tag' }
+238 silly mapToRegistry uri https://registry.npm.taobao.org/mocha
+239 verbose addNameRange registry:https://registry.npm.taobao.org/mocha not in flight; fetching
+240 silly cache add args [ 'react@^15.1.0', null ]
+241 verbose cache add spec react@^15.1.0
+242 silly cache add parsed spec Result {
+242 silly cache add   raw: 'react@^15.1.0',
+242 silly cache add   scope: null,
+242 silly cache add   name: 'react',
+242 silly cache add   rawSpec: '^15.1.0',
+242 silly cache add   spec: '>=15.1.0 <16.0.0',
+242 silly cache add   type: 'range' }
+243 silly addNamed react@>=15.1.0 <16.0.0
+244 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react
+245 silly addNameRange { name: 'react', range: '>=15.1.0 <16.0.0', hasData: false }
+246 silly mapToRegistry name react
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npm.taobao.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'react',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   name: 'react',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npm.taobao.org/react
+251 verbose addNameRange registry:https://registry.npm.taobao.org/react not in flight; fetching
+252 silly cache add args [ 'react-addons-test-utils@^15.1.0', null ]
+253 verbose cache add spec react-addons-test-utils@^15.1.0
+254 silly cache add parsed spec Result {
+254 silly cache add   raw: 'react-addons-test-utils@^15.1.0',
+254 silly cache add   scope: null,
+254 silly cache add   name: 'react-addons-test-utils',
+254 silly cache add   rawSpec: '^15.1.0',
+254 silly cache add   spec: '>=15.1.0 <16.0.0',
+254 silly cache add   type: 'range' }
+255 silly addNamed react-addons-test-utils@>=15.1.0 <16.0.0
+256 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react-addons-test-utils
+257 silly addNameRange { name: 'react-addons-test-utils',
+257 silly addNameRange   range: '>=15.1.0 <16.0.0',
+257 silly addNameRange   hasData: false }
+258 silly mapToRegistry name react-addons-test-utils
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry https://registry.npm.taobao.org/
+261 silly mapToRegistry data Result {
+261 silly mapToRegistry   raw: 'react-addons-test-utils',
+261 silly mapToRegistry   scope: null,
+261 silly mapToRegistry   name: 'react-addons-test-utils',
+261 silly mapToRegistry   rawSpec: '',
+261 silly mapToRegistry   spec: 'latest',
+261 silly mapToRegistry   type: 'tag' }
+262 silly mapToRegistry uri https://registry.npm.taobao.org/react-addons-test-utils
+263 verbose addNameRange registry:https://registry.npm.taobao.org/react-addons-test-utils not in flight; fetching
+264 silly cache add args [ 'react-dom@^15.1.0', null ]
+265 verbose cache add spec react-dom@^15.1.0
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'react-dom@^15.1.0',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'react-dom',
+266 silly cache add   rawSpec: '^15.1.0',
+266 silly cache add   spec: '>=15.1.0 <16.0.0',
+266 silly cache add   type: 'range' }
+267 silly addNamed react-dom@>=15.1.0 <16.0.0
+268 verbose addNamed ">=15.1.0 <16.0.0" is a valid semver range for react-dom
+269 silly addNameRange { name: 'react-dom', range: '>=15.1.0 <16.0.0', hasData: false }
+270 silly mapToRegistry name react-dom
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npm.taobao.org/
+273 silly mapToRegistry data Result {
+273 silly mapToRegistry   raw: 'react-dom',
+273 silly mapToRegistry   scope: null,
+273 silly mapToRegistry   name: 'react-dom',
+273 silly mapToRegistry   rawSpec: '',
+273 silly mapToRegistry   spec: 'latest',
+273 silly mapToRegistry   type: 'tag' }
+274 silly mapToRegistry uri https://registry.npm.taobao.org/react-dom
+275 verbose addNameRange registry:https://registry.npm.taobao.org/react-dom not in flight; fetching
+276 silly cache add args [ 'workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+276 silly cache add   null ]
+277 verbose cache add spec workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+278 silly cache add args [ 'workshopper-exercise@^0.2.3', null ]
+279 verbose cache add spec workshopper-exercise@^0.2.3
+280 silly cache add parsed spec Result {
+280 silly cache add   raw: 'workshopper-exercise@^0.2.3',
+280 silly cache add   scope: null,
+280 silly cache add   name: 'workshopper-exercise',
+280 silly cache add   rawSpec: '^0.2.3',
+280 silly cache add   spec: '>=0.2.3 <0.3.0',
+280 silly cache add   type: 'range' }
+281 silly addNamed workshopper-exercise@>=0.2.3 <0.3.0
+282 verbose addNamed ">=0.2.3 <0.3.0" is a valid semver range for workshopper-exercise
+283 silly addNameRange { name: 'workshopper-exercise',
+283 silly addNameRange   range: '>=0.2.3 <0.3.0',
+283 silly addNameRange   hasData: false }
+284 silly mapToRegistry name workshopper-exercise
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npm.taobao.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'workshopper-exercise',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   name: 'workshopper-exercise',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npm.taobao.org/workshopper-exercise
+289 verbose addNameRange registry:https://registry.npm.taobao.org/workshopper-exercise not in flight; fetching
+290 silly cache add args [ 'workshopper-wrappedexec@^0.1.1', null ]
+291 verbose cache add spec workshopper-wrappedexec@^0.1.1
+292 silly cache add parsed spec Result {
+292 silly cache add   raw: 'workshopper-wrappedexec@^0.1.1',
+292 silly cache add   scope: null,
+292 silly cache add   name: 'workshopper-wrappedexec',
+292 silly cache add   rawSpec: '^0.1.1',
+292 silly cache add   spec: '>=0.1.1 <0.2.0',
+292 silly cache add   type: 'range' }
+293 silly addNamed workshopper-wrappedexec@>=0.1.1 <0.2.0
+294 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for workshopper-wrappedexec
+295 silly addNameRange { name: 'workshopper-wrappedexec',
+295 silly addNameRange   range: '>=0.1.1 <0.2.0',
+295 silly addNameRange   hasData: false }
+296 silly mapToRegistry name workshopper-wrappedexec
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://registry.npm.taobao.org/
+299 silly mapToRegistry data Result {
+299 silly mapToRegistry   raw: 'workshopper-wrappedexec',
+299 silly mapToRegistry   scope: null,
+299 silly mapToRegistry   name: 'workshopper-wrappedexec',
+299 silly mapToRegistry   rawSpec: '',
+299 silly mapToRegistry   spec: 'latest',
+299 silly mapToRegistry   type: 'tag' }
+300 silly mapToRegistry uri https://registry.npm.taobao.org/workshopper-wrappedexec
+301 verbose addNameRange registry:https://registry.npm.taobao.org/workshopper-wrappedexec not in flight; fetching
+302 silly cache add args [ 'babel@^5.8.23', null ]
+303 verbose cache add spec babel@^5.8.23
+304 silly cache add parsed spec Result {
+304 silly cache add   raw: 'babel@^5.8.23',
+304 silly cache add   scope: null,
+304 silly cache add   name: 'babel',
+304 silly cache add   rawSpec: '^5.8.23',
+304 silly cache add   spec: '>=5.8.23 <6.0.0',
+304 silly cache add   type: 'range' }
+305 silly addNamed babel@>=5.8.23 <6.0.0
+306 verbose addNamed ">=5.8.23 <6.0.0" is a valid semver range for babel
+307 silly addNameRange { name: 'babel', range: '>=5.8.23 <6.0.0', hasData: false }
+308 silly mapToRegistry name babel
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry https://registry.npm.taobao.org/
+311 silly mapToRegistry data Result {
+311 silly mapToRegistry   raw: 'babel',
+311 silly mapToRegistry   scope: null,
+311 silly mapToRegistry   name: 'babel',
+311 silly mapToRegistry   rawSpec: '',
+311 silly mapToRegistry   spec: 'latest',
+311 silly mapToRegistry   type: 'tag' }
+312 silly mapToRegistry uri https://registry.npm.taobao.org/babel
+313 verbose addNameRange registry:https://registry.npm.taobao.org/babel not in flight; fetching
+314 silly cache add args [ 'blessed@0.0.37', null ]
+315 verbose cache add spec blessed@0.0.37
+316 silly cache add parsed spec Result {
+316 silly cache add   raw: 'blessed@0.0.37',
+316 silly cache add   scope: null,
+316 silly cache add   name: 'blessed',
+316 silly cache add   rawSpec: '0.0.37',
+316 silly cache add   spec: '0.0.37',
+316 silly cache add   type: 'version' }
+317 silly addNamed blessed@0.0.37
+318 verbose addNamed "0.0.37" is a plain semver version for blessed
+319 silly mapToRegistry name blessed
+320 silly mapToRegistry using default registry
+321 silly mapToRegistry registry https://registry.npm.taobao.org/
+322 silly mapToRegistry data Result {
+322 silly mapToRegistry   raw: 'blessed',
+322 silly mapToRegistry   scope: null,
+322 silly mapToRegistry   name: 'blessed',
+322 silly mapToRegistry   rawSpec: '',
+322 silly mapToRegistry   spec: 'latest',
+322 silly mapToRegistry   type: 'tag' }
+323 silly mapToRegistry uri https://registry.npm.taobao.org/blessed
+324 verbose addNameVersion registry:https://registry.npm.taobao.org/blessed not in flight; fetching
+325 silly cache add args [ 'browserify@^11.1.0', null ]
+326 verbose cache add spec browserify@^11.1.0
+327 silly cache add parsed spec Result {
+327 silly cache add   raw: 'browserify@^11.1.0',
+327 silly cache add   scope: null,
+327 silly cache add   name: 'browserify',
+327 silly cache add   rawSpec: '^11.1.0',
+327 silly cache add   spec: '>=11.1.0 <12.0.0',
+327 silly cache add   type: 'range' }
+328 silly addNamed browserify@>=11.1.0 <12.0.0
+329 verbose addNamed ">=11.1.0 <12.0.0" is a valid semver range for browserify
+330 silly addNameRange { name: 'browserify', range: '>=11.1.0 <12.0.0', hasData: false }
+331 silly mapToRegistry name browserify
+332 silly mapToRegistry using default registry
+333 silly mapToRegistry registry https://registry.npm.taobao.org/
+334 silly mapToRegistry data Result {
+334 silly mapToRegistry   raw: 'browserify',
+334 silly mapToRegistry   scope: null,
+334 silly mapToRegistry   name: 'browserify',
+334 silly mapToRegistry   rawSpec: '',
+334 silly mapToRegistry   spec: 'latest',
+334 silly mapToRegistry   type: 'tag' }
+335 silly mapToRegistry uri https://registry.npm.taobao.org/browserify
+336 verbose addNameRange registry:https://registry.npm.taobao.org/browserify not in flight; fetching
+337 silly cache add args [ 'babelify@^6.3.0', null ]
+338 verbose cache add spec babelify@^6.3.0
+339 silly cache add parsed spec Result {
+339 silly cache add   raw: 'babelify@^6.3.0',
+339 silly cache add   scope: null,
+339 silly cache add   name: 'babelify',
+339 silly cache add   rawSpec: '^6.3.0',
+339 silly cache add   spec: '>=6.3.0 <7.0.0',
+339 silly cache add   type: 'range' }
+340 silly addNamed babelify@>=6.3.0 <7.0.0
+341 verbose addNamed ">=6.3.0 <7.0.0" is a valid semver range for babelify
+342 silly addNameRange { name: 'babelify', range: '>=6.3.0 <7.0.0', hasData: false }
+343 silly mapToRegistry name babelify
+344 silly mapToRegistry using default registry
+345 silly mapToRegistry registry https://registry.npm.taobao.org/
+346 silly mapToRegistry data Result {
+346 silly mapToRegistry   raw: 'babelify',
+346 silly mapToRegistry   scope: null,
+346 silly mapToRegistry   name: 'babelify',
+346 silly mapToRegistry   rawSpec: '',
+346 silly mapToRegistry   spec: 'latest',
+346 silly mapToRegistry   type: 'tag' }
+347 silly mapToRegistry uri https://registry.npm.taobao.org/babelify
+348 verbose addNameRange registry:https://registry.npm.taobao.org/babelify not in flight; fetching
+349 verbose request uri https://registry.npm.taobao.org/jsdom
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 00:10:36
+352 http request GET https://registry.npm.taobao.org/jsdom
+353 verbose request uri https://registry.npm.taobao.org/mocha
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 00:10:36
+356 http request GET https://registry.npm.taobao.org/mocha
+357 verbose request uri https://registry.npm.taobao.org/react-addons-test-utils
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 00:10:36
+360 http request GET https://registry.npm.taobao.org/react-addons-test-utils
+361 silly cache add parsed spec Result {
+361 silly cache add   raw: 'workshopper@git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add   scope: null,
+361 silly cache add   name: 'workshopper',
+361 silly cache add   rawSpec: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add   spec: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add   type: 'hosted',
+361 silly cache add   hosted:
+361 silly cache add    { type: 'github',
+361 silly cache add      ssh: 'git@github.com:rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add      sshUrl: 'git+ssh://git@github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add      httpsUrl: 'git+https://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add      gitUrl: 'git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add      shortcut: 'github:rvagg/workshopper#cef8219ca2919964113c6daedd78a5db8404051b',
+361 silly cache add      directUrl: 'https://raw.githubusercontent.com/rvagg/workshopper/cef8219ca2919964113c6daedd78a5db8404051b/package.json' } }
+362 verbose addRemoteGit caching git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+363 verbose addRemoteGit git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b is a repository hosted by github
+364 silly tryClone cloning git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b via git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b
+365 verbose tryClone git-github-com-rvagg-workshopper-git-b7cda7ca not in flight; caching
+366 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+367 verbose request uri https://registry.npm.taobao.org/workshopper-exercise
+368 verbose request no auth needed
+369 info attempt registry request try #1 at 00:10:36
+370 http request GET https://registry.npm.taobao.org/workshopper-exercise
+371 verbose request uri https://registry.npm.taobao.org/workshopper-wrappedexec
+372 verbose request no auth needed
+373 info attempt registry request try #1 at 00:10:36
+374 http request GET https://registry.npm.taobao.org/workshopper-wrappedexec
+375 verbose request uri https://registry.npm.taobao.org/babel
+376 verbose request no auth needed
+377 info attempt registry request try #1 at 00:10:36
+378 http request GET https://registry.npm.taobao.org/babel
+379 verbose request uri https://registry.npm.taobao.org/blessed
+380 verbose request no auth needed
+381 info attempt registry request try #1 at 00:10:36
+382 http request GET https://registry.npm.taobao.org/blessed
+383 verbose request uri https://registry.npm.taobao.org/browserify
+384 verbose request no auth needed
+385 info attempt registry request try #1 at 00:10:36
+386 http request GET https://registry.npm.taobao.org/browserify
+387 verbose makeDirectory C:\Users\Administrator\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+388 verbose makeCacheDir UID & GID are irrelevant on win32
+389 verbose request uri https://registry.npm.taobao.org/babelify
+390 verbose request no auth needed
+391 info attempt registry request try #1 at 00:10:36
+392 http request GET https://registry.npm.taobao.org/babelify
+393 verbose request uri https://registry.npm.taobao.org/chalk
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 00:10:36
+396 verbose etag "8638-jOVhTdLH60zVxenAn2nezA"
+397 http request GET https://registry.npm.taobao.org/chalk
+398 verbose request uri https://registry.npm.taobao.org/concat-stream
+399 verbose request no auth needed
+400 info attempt registry request try #1 at 00:10:36
+401 verbose etag "a72c-heDhPeK7LKRMGjgq2QtBuQ"
+402 http request GET https://registry.npm.taobao.org/concat-stream
+403 verbose request uri https://registry.npm.taobao.org/react-dom
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 00:10:36
+406 verbose etag "d412-6mU6W3VuWjIaOLDRAnPghw"
+407 http request GET https://registry.npm.taobao.org/react-dom
+408 error git clone --template=C:\Users\Administrator\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/rvagg/workshopper.git C:\Users\Administrator\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca: undefined
+408 error git clone --template=C:\Users\Administrator\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/rvagg/workshopper.git C:\Users\Administrator\AppData\Roaming\npm-cache\_git-remotes\git-github-com-rvagg-workshopper-git-b7cda7ca: undefined
+409 verbose request uri https://registry.npm.taobao.org/react
+410 verbose request no auth needed
+411 info attempt registry request try #1 at 00:10:36
+412 verbose etag "22204-V7KRRgOieYcTihLR/mTshg"
+413 http request GET https://registry.npm.taobao.org/react
+414 verbose request uri https://registry.npm.taobao.org/envify
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 00:10:36
+417 verbose etag "6e46-/5mxlKTnJE9E1Ykpc3hEOw"
+418 http request GET https://registry.npm.taobao.org/envify
+419 http 200 https://registry.npm.taobao.org/workshopper-exercise
+420 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+420 verbose headers   'content-type': 'application/json; charset=utf-8',
+420 verbose headers   'content-length': '37033',
+420 verbose headers   connection: 'keep-alive',
+420 verbose headers   'x-current-requests': '1',
+420 verbose headers   etag: '"90a9-NuKuxNTw/F5z7MPT1vyxWw"',
+420 verbose headers   'x-readtime': '41' }
+421 silly get cb [ 200,
+421 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+421 silly get     'content-type': 'application/json; charset=utf-8',
+421 silly get     'content-length': '37033',
+421 silly get     connection: 'keep-alive',
+421 silly get     'x-current-requests': '1',
+421 silly get     etag: '"90a9-NuKuxNTw/F5z7MPT1vyxWw"',
+421 silly get     'x-readtime': '41' } ]
+422 verbose get saving workshopper-exercise to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\workshopper-exercise\.cache.json
+423 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+424 silly addNameRange number 2 { name: 'workshopper-exercise',
+424 silly addNameRange   range: '>=0.2.3 <0.3.0',
+424 silly addNameRange   hasData: true }
+425 silly addNameRange versions [ 'workshopper-exercise',
+425 silly addNameRange   [ '2.7.0',
+425 silly addNameRange     '2.6.2',
+425 silly addNameRange     '2.6.1',
+425 silly addNameRange     '2.6.0',
+425 silly addNameRange     '2.5.3',
+425 silly addNameRange     '2.5.2',
+425 silly addNameRange     '2.5.1',
+425 silly addNameRange     '2.5.0',
+425 silly addNameRange     '2.4.0',
+425 silly addNameRange     '2.3.0',
+425 silly addNameRange     '2.2.0',
+425 silly addNameRange     '2.1.0',
+425 silly addNameRange     '2.0.0',
+425 silly addNameRange     '1.1.0',
+425 silly addNameRange     '1.0.0',
+425 silly addNameRange     '0.2.3',
+425 silly addNameRange     '0.2.2',
+425 silly addNameRange     '0.2.1',
+425 silly addNameRange     '0.2.0',
+425 silly addNameRange     '0.1.0',
+425 silly addNameRange     '0.0.6',
+425 silly addNameRange     '0.0.5',
+425 silly addNameRange     '0.0.4',
+425 silly addNameRange     '0.0.3',
+425 silly addNameRange     '0.0.2',
+425 silly addNameRange     '0.0.1',
+425 silly addNameRange     '0.0.0' ] ]
+426 silly addNamed workshopper-exercise@0.2.3
+427 verbose addNamed "0.2.3" is a plain semver version for workshopper-exercise
+428 http 200 https://registry.npm.taobao.org/workshopper-wrappedexec
+429 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+429 verbose headers   'content-type': 'application/json; charset=utf-8',
+429 verbose headers   'content-length': '9087',
+429 verbose headers   connection: 'keep-alive',
+429 verbose headers   'x-current-requests': '1',
+429 verbose headers   etag: '"237f-9MS4IlXWS6jlU4eRBR4Zpw"',
+429 verbose headers   'x-readtime': '61' }
+430 silly get cb [ 200,
+430 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+430 silly get     'content-type': 'application/json; charset=utf-8',
+430 silly get     'content-length': '9087',
+430 silly get     connection: 'keep-alive',
+430 silly get     'x-current-requests': '1',
+430 silly get     etag: '"237f-9MS4IlXWS6jlU4eRBR4Zpw"',
+430 silly get     'x-readtime': '61' } ]
+431 verbose get saving workshopper-wrappedexec to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\workshopper-wrappedexec\.cache.json
+432 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+433 silly mapToRegistry name workshopper-exercise
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry https://registry.npm.taobao.org/
+436 silly mapToRegistry data Result {
+436 silly mapToRegistry   raw: 'workshopper-exercise',
+436 silly mapToRegistry   scope: null,
+436 silly mapToRegistry   name: 'workshopper-exercise',
+436 silly mapToRegistry   rawSpec: '',
+436 silly mapToRegistry   spec: 'latest',
+436 silly mapToRegistry   type: 'tag' }
+437 silly mapToRegistry uri https://registry.npm.taobao.org/workshopper-exercise
+438 verbose addRemoteTarball https://registry.npm.taobao.org/workshopper-exercise/download/workshopper-exercise-0.2.3.tgz not in flight; adding
+439 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/workshopper-exercise/download/workshopper-exercise-0.2.3.tgz',
+439 verbose addRemoteTarball   '28240588490e7f2de2fff925e06b7810af19f96c' ]
+440 info retry fetch attempt 1 at 00:10:36
+441 info attempt registry request try #1 at 00:10:36
+442 http fetch GET https://registry.npm.taobao.org/workshopper-exercise/download/workshopper-exercise-0.2.3.tgz
+443 silly addNameRange number 2 { name: 'workshopper-wrappedexec',
+443 silly addNameRange   range: '>=0.1.1 <0.2.0',
+443 silly addNameRange   hasData: true }
+444 silly addNameRange versions [ 'workshopper-wrappedexec',
+444 silly addNameRange   [ '0.1.2', '0.1.1', '0.1.0', '0.0.4', '0.0.3', '0.0.2', '0.0.1' ] ]
+445 silly addNamed workshopper-wrappedexec@0.1.2
+446 verbose addNamed "0.1.2" is a plain semver version for workshopper-wrappedexec
+447 silly mapToRegistry name workshopper-wrappedexec
+448 silly mapToRegistry using default registry
+449 silly mapToRegistry registry https://registry.npm.taobao.org/
+450 silly mapToRegistry data Result {
+450 silly mapToRegistry   raw: 'workshopper-wrappedexec',
+450 silly mapToRegistry   scope: null,
+450 silly mapToRegistry   name: 'workshopper-wrappedexec',
+450 silly mapToRegistry   rawSpec: '',
+450 silly mapToRegistry   spec: 'latest',
+450 silly mapToRegistry   type: 'tag' }
+451 silly mapToRegistry uri https://registry.npm.taobao.org/workshopper-wrappedexec
+452 verbose addRemoteTarball https://registry.npm.taobao.org/workshopper-wrappedexec/download/workshopper-wrappedexec-0.1.2.tgz not in flight; adding
+453 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/workshopper-wrappedexec/download/workshopper-wrappedexec-0.1.2.tgz',
+453 verbose addRemoteTarball   '85a1674093c94c67cb81fdf75750335324bc33ef' ]
+454 info retry fetch attempt 1 at 00:10:36
+455 info attempt registry request try #1 at 00:10:36
+456 http fetch GET https://registry.npm.taobao.org/workshopper-wrappedexec/download/workshopper-wrappedexec-0.1.2.tgz
+457 http 200 https://registry.npm.taobao.org/react-addons-test-utils
+458 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+458 verbose headers   'content-type': 'application/json; charset=utf-8',
+458 verbose headers   'content-length': '56953',
+458 verbose headers   connection: 'keep-alive',
+458 verbose headers   'x-current-requests': '1',
+458 verbose headers   etag: '"de79-9je1lGkVsKHvstRU3OVv8g"',
+458 verbose headers   'x-readtime': '27' }
+459 silly get cb [ 200,
+459 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+459 silly get     'content-type': 'application/json; charset=utf-8',
+459 silly get     'content-length': '56953',
+459 silly get     connection: 'keep-alive',
+459 silly get     'x-current-requests': '1',
+459 silly get     etag: '"de79-9je1lGkVsKHvstRU3OVv8g"',
+459 silly get     'x-readtime': '27' } ]
+460 verbose get saving react-addons-test-utils to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\react-addons-test-utils\.cache.json
+461 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+462 silly addNameRange number 2 { name: 'react-addons-test-utils',
+462 silly addNameRange   range: '>=15.1.0 <16.0.0',
+462 silly addNameRange   hasData: true }
+463 silly addNameRange versions [ 'react-addons-test-utils',
+463 silly addNameRange   [ '15.3.1',
+463 silly addNameRange     '15.3.1-rc.2',
+463 silly addNameRange     '15.3.1-rc.1',
+463 silly addNameRange     '15.3.0',
+463 silly addNameRange     '15.3.0-rc.3',
+463 silly addNameRange     '15.3.0-rc.2',
+463 silly addNameRange     '15.3.0-rc.1',
+463 silly addNameRange     '15.2.1',
+463 silly addNameRange     '15.2.0',
+463 silly addNameRange     '15.2.0-rc.2',
+463 silly addNameRange     '15.2.0-rc.1',
+463 silly addNameRange     '15.1.0',
+463 silly addNameRange     '15.1.0-alpha.1',
+463 silly addNameRange     '15.0.3-alpha.2',
+463 silly addNameRange     '15.0.3-alpha.1',
+463 silly addNameRange     '15.0.2',
+463 silly addNameRange     '15.0.2-alpha.4',
+463 silly addNameRange     '15.0.2-alpha.3',
+463 silly addNameRange     '15.0.2-alpha.2',
+463 silly addNameRange     '15.0.2-alpha.1',
+463 silly addNameRange     '15.0.1',
+463 silly addNameRange     '15.0.0',
+463 silly addNameRange     '0.14.8',
+463 silly addNameRange     '15.0.0-rc.2',
+463 silly addNameRange     '15.0.0-rc.1',
+463 silly addNameRange     '0.14.7',
+463 silly addNameRange     '0.15.0-alpha.1',
+463 silly addNameRange     '0.14.6',
+463 silly addNameRange     '0.14.5',
+463 silly addNameRange     '0.14.4',
+463 silly addNameRange     '0.14.3',
+463 silly addNameRange     '0.14.2',
+463 silly addNameRange     '0.14.1',
+463 silly addNameRange     '0.14.0',
+463 silly addNameRange     '0.14.0-rc1',
+463 silly addNameRange     '0.14.0-beta3',
+463 silly addNameRange     '0.14.0-beta2' ] ]
+464 silly addNamed react-addons-test-utils@15.3.1
+465 verbose addNamed "15.3.1" is a plain semver version for react-addons-test-utils
+466 silly mapToRegistry name react-addons-test-utils
+467 silly mapToRegistry using default registry
+468 silly mapToRegistry registry https://registry.npm.taobao.org/
+469 silly mapToRegistry data Result {
+469 silly mapToRegistry   raw: 'react-addons-test-utils',
+469 silly mapToRegistry   scope: null,
+469 silly mapToRegistry   name: 'react-addons-test-utils',
+469 silly mapToRegistry   rawSpec: '',
+469 silly mapToRegistry   spec: 'latest',
+469 silly mapToRegistry   type: 'tag' }
+470 silly mapToRegistry uri https://registry.npm.taobao.org/react-addons-test-utils
+471 verbose addRemoteTarball https://registry.npm.taobao.org/react-addons-test-utils/download/react-addons-test-utils-15.3.1.tgz not in flight; adding
+472 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/react-addons-test-utils/download/react-addons-test-utils-15.3.1.tgz',
+472 verbose addRemoteTarball   'b3b64e15d7d85f6d190020dca641218684b1124d' ]
+473 info retry fetch attempt 1 at 00:10:36
+474 info attempt registry request try #1 at 00:10:36
+475 http fetch GET https://registry.npm.taobao.org/react-addons-test-utils/download/react-addons-test-utils-15.3.1.tgz
+476 http 200 https://registry.npm.taobao.org/babelify
+477 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+477 verbose headers   'content-type': 'application/json; charset=utf-8',
+477 verbose headers   'content-length': '32662',
+477 verbose headers   connection: 'keep-alive',
+477 verbose headers   'x-current-requests': '1',
+477 verbose headers   etag: '"7f96-xm2mRK4DZK/vibq+lCktWg"',
+477 verbose headers   'x-readtime': '33' }
+478 silly get cb [ 200,
+478 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+478 silly get     'content-type': 'application/json; charset=utf-8',
+478 silly get     'content-length': '32662',
+478 silly get     connection: 'keep-alive',
+478 silly get     'x-current-requests': '1',
+478 silly get     etag: '"7f96-xm2mRK4DZK/vibq+lCktWg"',
+478 silly get     'x-readtime': '33' } ]
+479 verbose get saving babelify to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\babelify\.cache.json
+480 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+481 silly addNameRange number 2 { name: 'babelify', range: '>=6.3.0 <7.0.0', hasData: true }
+482 silly addNameRange versions [ 'babelify',
+482 silly addNameRange   [ '7.3.0',
+482 silly addNameRange     '7.2.0',
+482 silly addNameRange     '7.1.0',
+482 silly addNameRange     '7.0.2',
+482 silly addNameRange     '7.0.1',
+482 silly addNameRange     '7.0.0',
+482 silly addNameRange     '6.4.0',
+482 silly addNameRange     '6.3.0',
+482 silly addNameRange     '6.2.0',
+482 silly addNameRange     '6.1.3',
+482 silly addNameRange     '6.1.2',
+482 silly addNameRange     '6.1.1',
+482 silly addNameRange     '6.1.0',
+482 silly addNameRange     '6.0.2',
+482 silly addNameRange     '6.0.1',
+482 silly addNameRange     '5.0.5',
+482 silly addNameRange     '6.0.0',
+482 silly addNameRange     '5.0.4',
+482 silly addNameRange     '5.0.3',
+482 silly addNameRange     '5.0.2',
+482 silly addNameRange     '5.0.1' ] ]
+483 silly addNamed babelify@6.4.0
+484 verbose addNamed "6.4.0" is a plain semver version for babelify
+485 silly mapToRegistry name babelify
+486 silly mapToRegistry using default registry
+487 silly mapToRegistry registry https://registry.npm.taobao.org/
+488 silly mapToRegistry data Result {
+488 silly mapToRegistry   raw: 'babelify',
+488 silly mapToRegistry   scope: null,
+488 silly mapToRegistry   name: 'babelify',
+488 silly mapToRegistry   rawSpec: '',
+488 silly mapToRegistry   spec: 'latest',
+488 silly mapToRegistry   type: 'tag' }
+489 silly mapToRegistry uri https://registry.npm.taobao.org/babelify
+490 verbose addRemoteTarball https://registry.npm.taobao.org/babelify/download/babelify-6.4.0.tgz not in flight; adding
+491 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/babelify/download/babelify-6.4.0.tgz',
+491 verbose addRemoteTarball   'caf43888ba731b876b5567b643eecc66147693a5' ]
+492 info retry fetch attempt 1 at 00:10:36
+493 info attempt registry request try #1 at 00:10:36
+494 http fetch GET https://registry.npm.taobao.org/babelify/download/babelify-6.4.0.tgz
+495 http 200 https://registry.npm.taobao.org/react-dom
+496 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+496 verbose headers   'content-type': 'application/json; charset=utf-8',
+496 verbose headers   'content-length': '59115',
+496 verbose headers   connection: 'keep-alive',
+496 verbose headers   'x-current-requests': '1',
+496 verbose headers   etag: '"e6eb-cGQTf3OFOLO89Z/cGztp/g"',
+496 verbose headers   'x-readtime': '29' }
+497 silly get cb [ 200,
+497 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+497 silly get     'content-type': 'application/json; charset=utf-8',
+497 silly get     'content-length': '59115',
+497 silly get     connection: 'keep-alive',
+497 silly get     'x-current-requests': '1',
+497 silly get     etag: '"e6eb-cGQTf3OFOLO89Z/cGztp/g"',
+497 silly get     'x-readtime': '29' } ]
+498 verbose get saving react-dom to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\react-dom\.cache.json
+499 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+500 silly addNameRange number 2 { name: 'react-dom', range: '>=15.1.0 <16.0.0', hasData: true }
+501 silly addNameRange versions [ 'react-dom',
+501 silly addNameRange   [ '15.3.1',
+501 silly addNameRange     '15.3.1-rc.2',
+501 silly addNameRange     '15.3.1-rc.1',
+501 silly addNameRange     '15.3.0',
+501 silly addNameRange     '15.3.0-rc.3',
+501 silly addNameRange     '15.3.0-rc.2',
+501 silly addNameRange     '15.3.0-rc.1',
+501 silly addNameRange     '15.2.1',
+501 silly addNameRange     '15.2.0',
+501 silly addNameRange     '15.2.0-rc.2',
+501 silly addNameRange     '15.2.0-rc.1',
+501 silly addNameRange     '15.1.0',
+501 silly addNameRange     '15.1.0-alpha.1',
+501 silly addNameRange     '15.0.3-alpha.2',
+501 silly addNameRange     '15.0.3-alpha.1',
+501 silly addNameRange     '15.0.2',
+501 silly addNameRange     '15.0.2-alpha.4',
+501 silly addNameRange     '15.0.2-alpha.3',
+501 silly addNameRange     '15.0.2-alpha.2',
+501 silly addNameRange     '15.0.2-alpha.1',
+501 silly addNameRange     '15.0.1',
+501 silly addNameRange     '15.0.0',
+501 silly addNameRange     '0.14.8',
+501 silly addNameRange     '15.0.0-rc.2',
+501 silly addNameRange     '15.0.0-rc.1',
+501 silly addNameRange     '0.14.7',
+501 silly addNameRange     '0.15.0-alpha.1',
+501 silly addNameRange     '0.14.6',
+501 silly addNameRange     '0.14.5',
+501 silly addNameRange     '0.14.4',
+501 silly addNameRange     '0.14.3',
+501 silly addNameRange     '0.14.2',
+501 silly addNameRange     '0.14.1',
+501 silly addNameRange     '0.14.0',
+501 silly addNameRange     '0.14.0-rc1',
+501 silly addNameRange     '0.14.0-beta3',
+501 silly addNameRange     '0.14.0-beta2',
+501 silly addNameRange     '0.14.0-beta1',
+501 silly addNameRange     '0.1.0' ] ]
+502 silly addNamed react-dom@15.3.1
+503 verbose addNamed "15.3.1" is a plain semver version for react-dom
+504 silly mapToRegistry name react-dom
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry https://registry.npm.taobao.org/
+507 silly mapToRegistry data Result {
+507 silly mapToRegistry   raw: 'react-dom',
+507 silly mapToRegistry   scope: null,
+507 silly mapToRegistry   name: 'react-dom',
+507 silly mapToRegistry   rawSpec: '',
+507 silly mapToRegistry   spec: 'latest',
+507 silly mapToRegistry   type: 'tag' }
+508 silly mapToRegistry uri https://registry.npm.taobao.org/react-dom
+509 verbose addRemoteTarball https://registry.npm.taobao.org/react-dom/download/react-dom-15.3.1.tgz not in flight; adding
+510 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/react-dom/download/react-dom-15.3.1.tgz',
+510 verbose addRemoteTarball   '6d42cd2b64c8c5e0b693f3ffaec301e6e627e24e' ]
+511 http fetch 200 https://registry.npm.taobao.org/react-addons-test-utils/download/react-addons-test-utils-15.3.1.tgz
+512 info retry fetch attempt 1 at 00:10:36
+513 info attempt registry request try #1 at 00:10:36
+514 http fetch GET https://registry.npm.taobao.org/react-dom/download/react-dom-15.3.1.tgz
+515 silly fetchAndShaCheck shasum b3b64e15d7d85f6d190020dca641218684b1124d
+516 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\react-addons-test-utils\download\react-addons-test-utils-15.3.1.tgz not in flight; adding
+517 verbose addTmpTarball already have metadata; skipping unpack for react-addons-test-utils@15.3.1
+518 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+519 http fetch 200 https://registry.npm.taobao.org/workshopper-exercise/download/workshopper-exercise-0.2.3.tgz
+520 silly cache afterAdd react-addons-test-utils@15.3.1
+521 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-addons-test-utils\15.3.1\package\package.json not in flight; writing
+522 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+523 silly fetchAndShaCheck shasum 28240588490e7f2de2fff925e06b7810af19f96c
+524 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-addons-test-utils\15.3.1\package\package.json written
+525 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\workshopper-exercise\download\workshopper-exercise-0.2.3.tgz not in flight; adding
+526 verbose addTmpTarball already have metadata; skipping unpack for workshopper-exercise@0.2.3
+527 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+528 silly cache afterAdd workshopper-exercise@0.2.3
+529 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\workshopper-exercise\0.2.3\package\package.json not in flight; writing
+530 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+531 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\workshopper-exercise\0.2.3\package\package.json written
+532 http 200 https://registry.npm.taobao.org/envify
+533 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+533 verbose headers   'content-type': 'application/json; charset=utf-8',
+533 verbose headers   'content-length': '28283',
+533 verbose headers   connection: 'keep-alive',
+533 verbose headers   'x-current-requests': '1',
+533 verbose headers   etag: '"6e7b-1U/Bne4ad6TzepqUV6x8og"',
+533 verbose headers   'x-readtime': '40' }
+534 silly get cb [ 200,
+534 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+534 silly get     'content-type': 'application/json; charset=utf-8',
+534 silly get     'content-length': '28283',
+534 silly get     connection: 'keep-alive',
+534 silly get     'x-current-requests': '1',
+534 silly get     etag: '"6e7b-1U/Bne4ad6TzepqUV6x8og"',
+534 silly get     'x-readtime': '40' } ]
+535 verbose get saving envify to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\envify\.cache.json
+536 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+537 http fetch 200 https://registry.npm.taobao.org/workshopper-wrappedexec/download/workshopper-wrappedexec-0.1.2.tgz
+538 silly fetchAndShaCheck shasum 85a1674093c94c67cb81fdf75750335324bc33ef
+539 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\workshopper-wrappedexec\download\workshopper-wrappedexec-0.1.2.tgz not in flight; adding
+540 verbose addTmpTarball already have metadata; skipping unpack for workshopper-wrappedexec@0.1.2
+541 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+542 silly addNameRange number 2 { name: 'envify', range: '>=1.2.1 <2.0.0', hasData: true }
+543 silly addNameRange versions [ 'envify',
+543 silly addNameRange   [ '3.4.1',
+543 silly addNameRange     '3.4.0',
+543 silly addNameRange     '3.3.1',
+543 silly addNameRange     '3.3.0',
+543 silly addNameRange     '3.2.0',
+543 silly addNameRange     '3.1.0',
+543 silly addNameRange     '3.0.0',
+543 silly addNameRange     '2.0.1',
+543 silly addNameRange     '2.0.0',
+543 silly addNameRange     '1.2.1',
+543 silly addNameRange     '1.2.0',
+543 silly addNameRange     '1.1.0',
+543 silly addNameRange     '1.0.1',
+543 silly addNameRange     '1.0.0',
+543 silly addNameRange     '0.2.0',
+543 silly addNameRange     '0.1.0',
+543 silly addNameRange     '0.0.1' ] ]
+544 silly addNamed envify@1.2.1
+545 verbose addNamed "1.2.1" is a plain semver version for envify
+546 http 200 https://registry.npm.taobao.org/concat-stream
+547 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+547 verbose headers   'content-type': 'application/json; charset=utf-8',
+547 verbose headers   'content-length': '46341',
+547 verbose headers   connection: 'keep-alive',
+547 verbose headers   'x-current-requests': '1',
+547 verbose headers   etag: '"b505-S3IwW2dwwzIOBIAYlhSVzw"',
+547 verbose headers   'x-readtime': '21' }
+548 silly get cb [ 200,
+548 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+548 silly get     'content-type': 'application/json; charset=utf-8',
+548 silly get     'content-length': '46341',
+548 silly get     connection: 'keep-alive',
+548 silly get     'x-current-requests': '1',
+548 silly get     etag: '"b505-S3IwW2dwwzIOBIAYlhSVzw"',
+548 silly get     'x-readtime': '21' } ]
+549 verbose get saving concat-stream to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\concat-stream\.cache.json
+550 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+551 silly mapToRegistry name envify
+552 silly mapToRegistry using default registry
+553 silly mapToRegistry registry https://registry.npm.taobao.org/
+554 silly mapToRegistry data Result {
+554 silly mapToRegistry   raw: 'envify',
+554 silly mapToRegistry   scope: null,
+554 silly mapToRegistry   name: 'envify',
+554 silly mapToRegistry   rawSpec: '',
+554 silly mapToRegistry   spec: 'latest',
+554 silly mapToRegistry   type: 'tag' }
+555 silly mapToRegistry uri https://registry.npm.taobao.org/envify
+556 verbose addRemoteTarball https://registry.npm.taobao.org/envify/download/envify-1.2.1.tgz not in flight; adding
+557 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/envify/download/envify-1.2.1.tgz',
+557 verbose addRemoteTarball   'ac34e3676f9035d59518fef57d9914a24a18767a' ]
+558 http fetch 200 https://registry.npm.taobao.org/babelify/download/babelify-6.4.0.tgz
+559 http fetch 200 https://registry.npm.taobao.org/react-dom/download/react-dom-15.3.1.tgz
+560 info retry fetch attempt 1 at 00:10:36
+561 info attempt registry request try #1 at 00:10:36
+562 http fetch GET https://registry.npm.taobao.org/envify/download/envify-1.2.1.tgz
+563 silly fetchAndShaCheck shasum 6d42cd2b64c8c5e0b693f3ffaec301e6e627e24e
+564 silly fetchAndShaCheck shasum caf43888ba731b876b5567b643eecc66147693a5
+565 silly cache afterAdd workshopper-wrappedexec@0.1.2
+566 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\workshopper-wrappedexec\0.1.2\package\package.json not in flight; writing
+567 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+568 http 200 https://registry.npm.taobao.org/chalk
+569 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+569 verbose headers   'content-type': 'application/json; charset=utf-8',
+569 verbose headers   'content-length': '34604',
+569 verbose headers   connection: 'keep-alive',
+569 verbose headers   'x-current-requests': '1',
+569 verbose headers   etag: '"872c-y2ahbKmTuJtsQEm+awomYg"',
+569 verbose headers   'x-readtime': '34' }
+570 silly get cb [ 200,
+570 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+570 silly get     'content-type': 'application/json; charset=utf-8',
+570 silly get     'content-length': '34604',
+570 silly get     connection: 'keep-alive',
+570 silly get     'x-current-requests': '1',
+570 silly get     etag: '"872c-y2ahbKmTuJtsQEm+awomYg"',
+570 silly get     'x-readtime': '34' } ]
+571 verbose get saving chalk to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\chalk\.cache.json
+572 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+573 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\react-dom\download\react-dom-15.3.1.tgz not in flight; adding
+574 verbose addTmpTarball already have metadata; skipping unpack for react-dom@15.3.1
+575 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+576 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\babelify\download\babelify-6.4.0.tgz not in flight; adding
+577 verbose addTmpTarball already have metadata; skipping unpack for babelify@6.4.0
+578 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+579 silly addNameRange number 2 { name: 'concat-stream', range: '>=1.4.5 <2.0.0', hasData: true }
+580 silly addNameRange versions [ 'concat-stream',
+580 silly addNameRange   [ '1.5.2',
+580 silly addNameRange     '1.5.1',
+580 silly addNameRange     '1.5.0',
+580 silly addNameRange     '1.4.10',
+580 silly addNameRange     '1.4.8',
+580 silly addNameRange     '1.4.7',
+580 silly addNameRange     '1.4.6',
+580 silly addNameRange     '1.4.5',
+580 silly addNameRange     '1.4.4',
+580 silly addNameRange     '1.4.3',
+580 silly addNameRange     '1.4.2',
+580 silly addNameRange     '1.4.1',
+580 silly addNameRange     '1.4.0',
+580 silly addNameRange     '1.3.1',
+580 silly addNameRange     '1.3.0',
+580 silly addNameRange     '1.2.1',
+580 silly addNameRange     '1.2.0',
+580 silly addNameRange     '1.1.0',
+580 silly addNameRange     '1.0.1',
+580 silly addNameRange     '1.0.0',
+580 silly addNameRange     '0.1.1',
+580 silly addNameRange     '0.1.0',
+580 silly addNameRange     '0.0.9',
+580 silly addNameRange     '0.0.8',
+580 silly addNameRange     '0.0.7',
+580 silly addNameRange     '0.0.6',
+580 silly addNameRange     '0.0.5',
+580 silly addNameRange     '0.0.4',
+580 silly addNameRange     '0.0.3',
+580 silly addNameRange     '0.0.2',
+580 silly addNameRange     '0.0.1' ] ]
+581 silly addNamed concat-stream@1.5.2
+582 verbose addNamed "1.5.2" is a plain semver version for concat-stream
+583 silly mapToRegistry name concat-stream
+584 silly mapToRegistry using default registry
+585 silly mapToRegistry registry https://registry.npm.taobao.org/
+586 silly mapToRegistry data Result {
+586 silly mapToRegistry   raw: 'concat-stream',
+586 silly mapToRegistry   scope: null,
+586 silly mapToRegistry   name: 'concat-stream',
+586 silly mapToRegistry   rawSpec: '',
+586 silly mapToRegistry   spec: 'latest',
+586 silly mapToRegistry   type: 'tag' }
+587 silly mapToRegistry uri https://registry.npm.taobao.org/concat-stream
+588 verbose addRemoteTarball https://registry.npm.taobao.org/concat-stream/download/concat-stream-1.5.2.tgz not in flight; adding
+589 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/concat-stream/download/concat-stream-1.5.2.tgz',
+589 verbose addRemoteTarball   '708978624d856af41a5a741defdd261da752c266' ]
+590 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\workshopper-wrappedexec\0.1.2\package\package.json written
+591 info retry fetch attempt 1 at 00:10:36
+592 info attempt registry request try #1 at 00:10:36
+593 http fetch GET https://registry.npm.taobao.org/concat-stream/download/concat-stream-1.5.2.tgz
+594 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: true }
+595 silly addNameRange versions [ 'chalk',
+595 silly addNameRange   [ '1.1.3',
+595 silly addNameRange     '1.1.2',
+595 silly addNameRange     '1.1.1',
+595 silly addNameRange     '1.1.0',
+595 silly addNameRange     '1.0.0',
+595 silly addNameRange     '0.5.1',
+595 silly addNameRange     '0.5.0',
+595 silly addNameRange     '0.4.0',
+595 silly addNameRange     '0.3.0',
+595 silly addNameRange     '0.2.1',
+595 silly addNameRange     '0.2.0',
+595 silly addNameRange     '0.1.1',
+595 silly addNameRange     '0.1.0' ] ]
+596 silly addNamed chalk@0.4.0
+597 verbose addNamed "0.4.0" is a plain semver version for chalk
+598 silly cache afterAdd react-dom@15.3.1
+599 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-dom\15.3.1\package\package.json not in flight; writing
+600 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+601 silly mapToRegistry name chalk
+602 silly mapToRegistry using default registry
+603 silly mapToRegistry registry https://registry.npm.taobao.org/
+604 silly mapToRegistry data Result {
+604 silly mapToRegistry   raw: 'chalk',
+604 silly mapToRegistry   scope: null,
+604 silly mapToRegistry   name: 'chalk',
+604 silly mapToRegistry   rawSpec: '',
+604 silly mapToRegistry   spec: 'latest',
+604 silly mapToRegistry   type: 'tag' }
+605 silly mapToRegistry uri https://registry.npm.taobao.org/chalk
+606 verbose addRemoteTarball https://registry.npm.taobao.org/chalk/download/chalk-0.4.0.tgz not in flight; adding
+607 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/chalk/download/chalk-0.4.0.tgz',
+607 verbose addRemoteTarball   '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f' ]
+608 silly cache afterAdd babelify@6.4.0
+609 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babelify\6.4.0\package\package.json not in flight; writing
+610 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+611 info retry fetch attempt 1 at 00:10:36
+612 info attempt registry request try #1 at 00:10:36
+613 http fetch GET https://registry.npm.taobao.org/chalk/download/chalk-0.4.0.tgz
+614 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-dom\15.3.1\package\package.json written
+615 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babelify\6.4.0\package\package.json written
+616 http fetch 200 https://registry.npm.taobao.org/concat-stream/download/concat-stream-1.5.2.tgz
+617 silly fetchAndShaCheck shasum 708978624d856af41a5a741defdd261da752c266
+618 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\concat-stream\download\concat-stream-1.5.2.tgz not in flight; adding
+619 verbose addTmpTarball already have metadata; skipping unpack for concat-stream@1.5.2
+620 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+621 silly cache afterAdd concat-stream@1.5.2
+622 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\concat-stream\1.5.2\package\package.json not in flight; writing
+623 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+624 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\concat-stream\1.5.2\package\package.json written
+625 http fetch 200 https://registry.npm.taobao.org/chalk/download/chalk-0.4.0.tgz
+626 silly fetchAndShaCheck shasum 5199a3ddcd0c1efe23bc08c1b027b06176e0c64f
+627 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\chalk\download\chalk-0.4.0.tgz not in flight; adding
+628 verbose addTmpTarball already have metadata; skipping unpack for chalk@0.4.0
+629 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+630 silly cache afterAdd chalk@0.4.0
+631 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\chalk\0.4.0\package\package.json not in flight; writing
+632 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+633 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\chalk\0.4.0\package\package.json written
+634 http 200 https://registry.npm.taobao.org/react
+635 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+635 verbose headers   'content-type': 'application/json; charset=utf-8',
+635 verbose headers   'content-length': '145325',
+635 verbose headers   connection: 'keep-alive',
+635 verbose headers   'x-current-requests': '1',
+635 verbose headers   etag: '"237ad-mlmJfACyqf/npixtKiAtOA"',
+635 verbose headers   'x-readtime': '38' }
+636 silly get cb [ 200,
+636 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+636 silly get     'content-type': 'application/json; charset=utf-8',
+636 silly get     'content-length': '145325',
+636 silly get     connection: 'keep-alive',
+636 silly get     'x-current-requests': '1',
+636 silly get     etag: '"237ad-mlmJfACyqf/npixtKiAtOA"',
+636 silly get     'x-readtime': '38' } ]
+637 verbose get saving react to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\react\.cache.json
+638 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+639 silly addNameRange number 2 { name: 'react', range: '>=15.1.0 <16.0.0', hasData: true }
+640 silly addNameRange versions [ 'react',
+640 silly addNameRange   [ '15.3.1',
+640 silly addNameRange     '15.3.1-rc.2',
+640 silly addNameRange     '15.3.1-rc.1',
+640 silly addNameRange     '15.3.0',
+640 silly addNameRange     '15.3.0-rc.3',
+640 silly addNameRange     '15.3.0-rc.2',
+640 silly addNameRange     '15.3.0-rc.1',
+640 silly addNameRange     '15.2.1',
+640 silly addNameRange     '15.2.0',
+640 silly addNameRange     '15.2.0-rc.2',
+640 silly addNameRange     '15.2.0-rc.1',
+640 silly addNameRange     '15.1.0',
+640 silly addNameRange     '15.1.0-alpha.1',
+640 silly addNameRange     '15.0.3-alpha.2',
+640 silly addNameRange     '15.0.3-alpha.1',
+640 silly addNameRange     '15.0.2',
+640 silly addNameRange     '15.0.2-alpha.4',
+640 silly addNameRange     '15.0.2-alpha.3',
+640 silly addNameRange     '15.0.2-alpha.2',
+640 silly addNameRange     '15.0.2-alpha.1',
+640 silly addNameRange     '15.0.1',
+640 silly addNameRange     '15.0.0',
+640 silly addNameRange     '0.14.8',
+640 silly addNameRange     '15.0.0-rc.2',
+640 silly addNameRange     '15.0.0-rc.1',
+640 silly addNameRange     '0.14.7',
+640 silly addNameRange     '0.15.0-alpha.1',
+640 silly addNameRange     '0.14.6',
+640 silly addNameRange     '0.14.5',
+640 silly addNameRange     '0.14.4',
+640 silly addNameRange     '0.14.3',
+640 silly addNameRange     '0.14.2',
+640 silly addNameRange     '0.14.1',
+640 silly addNameRange     '0.14.0',
+640 silly addNameRange     '0.14.0-rc1',
+640 silly addNameRange     '0.14.0-beta3',
+640 silly addNameRange     '0.14.0-beta2',
+640 silly addNameRange     '0.14.0-beta1',
+640 silly addNameRange     '0.14.0-alpha3',
+640 silly addNameRange     '0.14.0-alpha2',
+640 silly addNameRange     '0.14.0-alpha1',
+640 silly addNameRange     '0.13.3',
+640 silly addNameRange     '0.13.2',
+640 silly addNameRange     '0.13.1',
+640 silly addNameRange     '0.13.0',
+640 silly addNameRange     '0.13.0-rc2',
+640 silly addNameRange     '0.13.0-rc1',
+640 silly addNameRange     '0.13.0-beta.2',
+640 silly addNameRange     '0.13.0-beta.1',
+640 silly addNameRange     '0.13.0-alpha.2',
+640 silly addNameRange     '0.13.0-alpha.1',
+640 silly addNameRange     '0.12.2',
+640 silly addNameRange     '0.12.1',
+640 silly addNameRange     '0.12.0',
+640 silly addNameRange     '0.12.0-rc1',
+640 silly addNameRange     '0.11.2',
+640 silly addNameRange     '0.11.1',
+640 silly addNameRange     '0.11.0',
+640 silly addNameRange     '0.11.0-rc1',
+640 silly addNameRange     '0.10.0',
+640 silly addNameRange     '0.10.0-rc1',
+640 silly addNameRange     '0.9.0',
+640 silly addNameRange     '0.9.0-rc1',
+640 silly addNameRange     '0.8.0',
+640 silly addNameRange     '0.7.1',
+640 silly addNameRange     '0.7.0',
+640 silly addNameRange     '0.6.3',
+640 silly addNameRange     '0.6.2',
+640 silly addNameRange     '0.6.1',
+640 silly addNameRange     '0.6.0',
+640 silly addNameRange     '0.5.2',
+640 silly addNameRange     '0.5.1',
+640 silly addNameRange     '0.5.0',
+640 silly addNameRange     '0.3.5',
+640 silly addNameRange     '0.3.4',
+640 silly addNameRange     '0.3.0',
+640 silly addNameRange     '0.2.6',
+640 silly addNameRange     '0.2.5',
+640 silly addNameRange     '0.2.4',
+640 silly addNameRange     '0.2.3',
+640 silly addNameRange     '0.2.2',
+640 silly addNameRange     '0.2.1',
+640 silly addNameRange     '0.2.0',
+640 silly addNameRange     '0.1.2',
+640 silly addNameRange     '0.0.3',
+640 silly addNameRange     '0.0.2',
+640 silly addNameRange     '0.0.1' ] ]
+641 silly addNamed react@15.3.1
+642 verbose addNamed "15.3.1" is a plain semver version for react
+643 silly mapToRegistry name react
+644 silly mapToRegistry using default registry
+645 silly mapToRegistry registry https://registry.npm.taobao.org/
+646 silly mapToRegistry data Result {
+646 silly mapToRegistry   raw: 'react',
+646 silly mapToRegistry   scope: null,
+646 silly mapToRegistry   name: 'react',
+646 silly mapToRegistry   rawSpec: '',
+646 silly mapToRegistry   spec: 'latest',
+646 silly mapToRegistry   type: 'tag' }
+647 silly mapToRegistry uri https://registry.npm.taobao.org/react
+648 verbose addRemoteTarball https://registry.npm.taobao.org/react/download/react-15.3.1.tgz not in flight; adding
+649 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/react/download/react-15.3.1.tgz',
+649 verbose addRemoteTarball   'f78501ed8c2ec6e6e31c3223652e97f1369d2bd6' ]
+650 info retry fetch attempt 1 at 00:10:36
+651 info attempt registry request try #1 at 00:10:36
+652 http fetch GET https://registry.npm.taobao.org/react/download/react-15.3.1.tgz
+653 http fetch 200 https://registry.npm.taobao.org/envify/download/envify-1.2.1.tgz
+654 silly fetchAndShaCheck shasum ac34e3676f9035d59518fef57d9914a24a18767a
+655 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\envify\download\envify-1.2.1.tgz not in flight; adding
+656 verbose addTmpTarball already have metadata; skipping unpack for envify@1.2.1
+657 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+658 silly cache afterAdd envify@1.2.1
+659 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\envify\1.2.1\package\package.json not in flight; writing
+660 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+661 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\envify\1.2.1\package\package.json written
+662 http fetch 200 https://registry.npm.taobao.org/react/download/react-15.3.1.tgz
+663 http 200 https://registry.npm.taobao.org/blessed
+664 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+664 verbose headers   'content-type': 'application/json; charset=utf-8',
+664 verbose headers   'content-length': '153477',
+664 verbose headers   connection: 'keep-alive',
+664 verbose headers   'x-current-requests': '1',
+664 verbose headers   etag: '"25785-ziP0JfraBkk6X/B0NuZVQA"',
+664 verbose headers   'x-readtime': '149' }
+665 silly get cb [ 200,
+665 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+665 silly get     'content-type': 'application/json; charset=utf-8',
+665 silly get     'content-length': '153477',
+665 silly get     connection: 'keep-alive',
+665 silly get     'x-current-requests': '1',
+665 silly get     etag: '"25785-ziP0JfraBkk6X/B0NuZVQA"',
+665 silly get     'x-readtime': '149' } ]
+666 verbose get saving blessed to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\blessed\.cache.json
+667 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+668 silly mapToRegistry name blessed
+669 silly mapToRegistry using default registry
+670 silly mapToRegistry registry https://registry.npm.taobao.org/
+671 silly mapToRegistry data Result {
+671 silly mapToRegistry   raw: 'blessed',
+671 silly mapToRegistry   scope: null,
+671 silly mapToRegistry   name: 'blessed',
+671 silly mapToRegistry   rawSpec: '',
+671 silly mapToRegistry   spec: 'latest',
+671 silly mapToRegistry   type: 'tag' }
+672 silly mapToRegistry uri https://registry.npm.taobao.org/blessed
+673 verbose addRemoteTarball https://registry.npm.taobao.org/blessed/download/blessed-0.0.37.tgz not in flight; adding
+674 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/blessed/download/blessed-0.0.37.tgz',
+674 verbose addRemoteTarball   'cfe6e2425b4167becdf515c02ad3dc1b4ce37166' ]
+675 info retry fetch attempt 1 at 00:10:36
+676 info attempt registry request try #1 at 00:10:36
+677 http fetch GET https://registry.npm.taobao.org/blessed/download/blessed-0.0.37.tgz
+678 http 200 https://registry.npm.taobao.org/jsdom
+679 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+679 verbose headers   'content-type': 'application/json; charset=utf-8',
+679 verbose headers   'content-length': '595785',
+679 verbose headers   connection: 'keep-alive',
+679 verbose headers   'x-current-requests': '1',
+679 verbose headers   etag: '"91749-0mahXWB9Nawhoer2vOYRUg"',
+679 verbose headers   'x-readtime': '242' }
+680 silly get cb [ 200,
+680 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+680 silly get     'content-type': 'application/json; charset=utf-8',
+680 silly get     'content-length': '595785',
+680 silly get     connection: 'keep-alive',
+680 silly get     'x-current-requests': '1',
+680 silly get     etag: '"91749-0mahXWB9Nawhoer2vOYRUg"',
+680 silly get     'x-readtime': '242' } ]
+681 verbose get saving jsdom to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\jsdom\.cache.json
+682 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+683 http 200 https://registry.npm.taobao.org/babel
+684 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+684 verbose headers   'content-type': 'application/json; charset=utf-8',
+684 verbose headers   'content-length': '301927',
+684 verbose headers   connection: 'keep-alive',
+684 verbose headers   'x-current-requests': '1',
+684 verbose headers   etag: '"49b67-114cwCk0c1c0571JLiaMkw"',
+684 verbose headers   'x-readtime': '54' }
+685 silly get cb [ 200,
+685 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+685 silly get     'content-type': 'application/json; charset=utf-8',
+685 silly get     'content-length': '301927',
+685 silly get     connection: 'keep-alive',
+685 silly get     'x-current-requests': '1',
+685 silly get     etag: '"49b67-114cwCk0c1c0571JLiaMkw"',
+685 silly get     'x-readtime': '54' } ]
+686 verbose get saving babel to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\babel\.cache.json
+687 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+688 silly addNameRange number 2 { name: 'jsdom', range: '>=7.0.2 <8.0.0', hasData: true }
+689 silly addNameRange versions [ 'jsdom',
+689 silly addNameRange   [ '9.5.0',
+689 silly addNameRange     '9.4.5',
+689 silly addNameRange     '9.4.4',
+689 silly addNameRange     '9.4.3',
+689 silly addNameRange     '9.4.2',
+689 silly addNameRange     '9.4.1',
+689 silly addNameRange     '9.4.0',
+689 silly addNameRange     '9.3.0',
+689 silly addNameRange     '9.2.1',
+689 silly addNameRange     '9.2.0',
+689 silly addNameRange     '9.1.0',
+689 silly addNameRange     '9.0.0',
+689 silly addNameRange     '8.5.0',
+689 silly addNameRange     '8.4.1',
+689 silly addNameRange     '8.4.0',
+689 silly addNameRange     '8.3.1',
+689 silly addNameRange     '8.3.0',
+689 silly addNameRange     '8.2.0',
+689 silly addNameRange     '8.1.0',
+689 silly addNameRange     '8.0.4',
+689 silly addNameRange     '8.0.3',
+689 silly addNameRange     '8.0.2',
+689 silly addNameRange     '8.0.1',
+689 silly addNameRange     '8.0.0',
+689 silly addNameRange     '8.0.0-0',
+689 silly addNameRange     '7.2.2',
+689 silly addNameRange     '7.2.1',
+689 silly addNameRange     '7.2.0',
+689 silly addNameRange     '7.1.1',
+689 silly addNameRange     '7.1.0',
+689 silly addNameRange     '7.0.2',
+689 silly addNameRange     '7.0.1',
+689 silly addNameRange     '7.0.0',
+689 silly addNameRange     '6.5.1',
+689 silly addNameRange     '6.5.0',
+689 silly addNameRange     '6.4.0',
+689 silly addNameRange     '6.3.0',
+689 silly addNameRange     '6.2.0',
+689 silly addNameRange     '6.1.0',
+689 silly addNameRange     '6.0.1',
+689 silly addNameRange     '6.0.0',
+689 silly addNameRange     '5.6.1',
+689 silly addNameRange     '5.6.0',
+689 silly addNameRange     '5.5.0',
+689 silly addNameRange     '5.4.3',
+689 silly addNameRange     '5.4.2',
+689 silly addNameRange     '5.4.1',
+689 silly addNameRange     '5.4.0',
+689 silly addNameRange     '5.3.0',
+689 silly addNameRange     '5.2.0',
+689 silly addNameRange     '5.1.0',
+689 silly addNameRange     '4.5.2',
+689 silly addNameRange     '5.0.1',
+689 silly addNameRange     '5.0.0',
+689 silly addNameRange     '4.5.1',
+689 silly addNameRange     '4.5.0',
+689 silly addNameRange     '4.4.0',
+689 silly addNameRange     '4.3.0',
+689 silly addNameRange     '4.2.0',
+689 silly addNameRange     '4.1.0',
+689 silly addNameRange     '4.0.5',
+689 silly addNameRange     '4.0.4',
+689 silly addNameRange     '4.0.3',
+689 silly addNameRange     '4.0.2',
+689 silly addNameRange     '4.0.1',
+689 silly addNameRange     '4.0.0',
+689 silly addNameRange     '3.1.2',
+689 silly addNameRange     '3.1.1',
+689 silly addNameRange     '3.1.0',
+689 silly addNameRange     '3.0.3',
+689 silly addNameRange     '3.0.2',
+689 silly addNameRange     '3.0.1',
+689 silly addNameRange     '3.0.0',
+689 silly addNameRange     '2.0.0',
+689 silly addNameRange     '1.5.0',
+689 silly addNameRange     '1.4.1',
+689 silly addNameRange     '1.4.0',
+689 silly addNameRange     '1.3.2',
+689 silly addNameRange     '1.3.1',
+689 silly addNameRange     '1.3.0',
+689 silly addNameRange     '1.2.3',
+689 silly addNameRange     '1.2.2',
+689 silly addNameRange     '1.2.1',
+689 silly addNameRange     '1.2.0',
+689 silly addNameRange     '1.1.0',
+689 silly addNameRange     '1.0.3',
+689 silly addNameRange     '1.0.2',
+689 silly addNameRange     '1.0.1',
+689 silly addNameRange     '1.0.0',
+689 silly addNameRange     '1.0.0-pre.7',
+689 silly addNameRange     '1.0.0-pre.6',
+689 silly addNameRange     '1.0.0-pre.5',
+689 silly addNameRange     '1.0.0-pre.4',
+689 silly addNameRange     '1.0.0-pre.3',
+689 silly addNameRange     '1.0.0-pre.1',
+689 silly addNameRange     '0.11.1',
+689 silly addNameRange     '0.11.0',
+689 silly addNameRange     '0.10.6',
+689 silly addNameRange     '0.10.5',
+689 silly addNameRange     '0.10.4',
+689 silly addNameRange     '0.10.3',
+689 silly addNameRange     '0.10.2',
+689 silly addNameRange     '0.10.1',
+689 silly addNameRange     '0.10.0',
+689 silly addNameRange     '0.9.0',
+689 silly addNameRange     '0.8.11',
+689 silly addNameRange     '0.8.10',
+689 silly addNameRange     '0.8.9',
+689 silly addNameRange     '0.8.8',
+689 silly addNameRange     '0.8.7',
+689 silly addNameRange     '0.8.6',
+689 silly addNameRange     '0.8.5',
+689 silly addNameRange     '0.8.4',
+689 silly addNameRange     '0.8.3',
+689 silly addNameRange     '0.8.2',
+689 silly addNameRange     '0.8.1',
+689 silly addNameRange     '0.8.0',
+689 silly addNameRange     '0.7.0',
+689 silly addNameRange     '0.6.5',
+689 silly addNameRange     '0.6.4',
+689 silly addNameRange     '0.6.3',
+689 silly addNameRange     '0.6.2',
+689 silly addNameRange     '0.6.1',
+689 silly addNameRange     '0.6.0',
+689 silly addNameRange     '0.5.7',
+689 silly addNameRange     '0.5.6',
+689 silly addNameRange     '0.5.5',
+689 silly addNameRange     '0.5.4',
+689 silly addNameRange     '0.5.3',
+689 silly addNameRange     '0.5.2',
+689 silly addNameRange     '0.5.1',
+689 silly addNameRange     '0.5.0',
+689 silly addNameRange     '0.4.2',
+689 silly addNameRange     '0.4.1',
+689 silly addNameRange     '0.4.0',
+689 silly addNameRange     '0.3.4',
+689 silly addNameRange     '0.3.3',
+689 silly addNameRange     '0.3.2',
+689 silly addNameRange     '0.3.1',
+689 silly addNameRange     '0.3.0',
+689 silly addNameRange     '0.2.19',
+689 silly addNameRange     '0.2.18',
+689 silly addNameRange     '0.2.17',
+689 silly addNameRange     '0.2.16',
+689 silly addNameRange     '0.2.15',
+689 silly addNameRange     '0.2.14',
+689 silly addNameRange     '0.2.13',
+689 silly addNameRange     '0.2.12',
+689 silly addNameRange     '0.2.11',
+689 silly addNameRange     '0.2.10',
+689 silly addNameRange     '0.2.9',
+689 silly addNameRange     '0.2.8',
+689 silly addNameRange     '0.2.7',
+689 silly addNameRange     '0.2.6',
+689 silly addNameRange     '0.2.5',
+689 silly addNameRange     '0.2.4',
+689 silly addNameRange     '0.2.3',
+689 silly addNameRange     '0.2.2',
+689 silly addNameRange     '0.2.1',
+689 silly addNameRange     '0.2.0',
+689 silly addNameRange     '0.1.23',
+689 silly addNameRange     '0.1.22',
+689 silly addNameRange     '0.1.21',
+689 silly addNameRange     '0.1.20',
+689 silly addNameRange     '0.1.15',
+689 silly addNameRange     '0.1.9',
+689 silly addNameRange     '0.1.6',
+689 silly addNameRange     '0.0.1',
+689 silly addNameRange     '0.1.19',
+689 silly addNameRange     '0.1.18',
+689 silly addNameRange     '0.1.17',
+689 silly addNameRange     '0.1.16',
+689 silly addNameRange     '0.1.13',
+689 silly addNameRange     '0.1.12',
+689 silly addNameRange     '0.1.11',
+689 silly addNameRange     '0.1.10',
+689 silly addNameRange     '0.1.8',
+689 silly addNameRange     '0.1.7',
+689 silly addNameRange     '0.1.5',
+689 silly addNameRange     '0.1.4',
+689 silly addNameRange     '0.1.2' ] ]
+690 silly addNamed jsdom@7.2.2
+691 verbose addNamed "7.2.2" is a plain semver version for jsdom
+692 silly addNameRange number 2 { name: 'babel', range: '>=5.8.23 <6.0.0', hasData: true }
+693 silly addNameRange versions [ 'babel',
+693 silly addNameRange   [ '5.8.38',
+693 silly addNameRange     '6.5.2',
+693 silly addNameRange     '6.5.1',
+693 silly addNameRange     '6.5.0-1',
+693 silly addNameRange     '6.5.0',
+693 silly addNameRange     '5.8.35',
+693 silly addNameRange     '6.3.26',
+693 silly addNameRange     '6.3.13',
+693 silly addNameRange     '6.2.4',
+693 silly addNameRange     '6.1.18',
+693 silly addNameRange     '6.1.17',
+693 silly addNameRange     '6.1.16',
+693 silly addNameRange     '6.1.15',
+693 silly addNameRange     '6.1.14',
+693 silly addNameRange     '6.1.13',
+693 silly addNameRange     '6.1.12',
+693 silly addNameRange     '6.1.11',
+693 silly addNameRange     '6.1.10',
+693 silly addNameRange     '6.1.9',
+693 silly addNameRange     '6.1.8',
+693 silly addNameRange     '6.1.7',
+693 silly addNameRange     '6.1.6',
+693 silly addNameRange     '6.1.5',
+693 silly addNameRange     '5.8.34',
+693 silly addNameRange     '6.0.15',
+693 silly addNameRange     '6.0.14',
+693 silly addNameRange     '6.0.12',
+693 silly addNameRange     '6.0.2',
+693 silly addNameRange     '6.0.0',
+693 silly addNameRange     '5.8.29',
+693 silly addNameRange     '5.8.23',
+693 silly addNameRange     '5.8.21',
+693 silly addNameRange     '5.8.20',
+693 silly addNameRange     '5.8.19',
+693 silly addNameRange     '5.8.12',
+693 silly addNameRange     '5.8.9',
+693 silly addNameRange     '5.8.8',
+693 silly addNameRange     '5.8.6',
+693 silly addNameRange     '5.8.5',
+693 silly addNameRange     '5.8.3',
+693 silly addNameRange     '5.8.2',
+693 silly addNameRange     '5.6.23',
+693 silly addNameRange     '5.6.14',
+693 silly addNameRange     '5.6.12',
+693 silly addNameRange     '5.6.11',
+693 silly addNameRange     '5.6.10',
+693 silly addNameRange     '5.6.7',
+693 silly addNameRange     '5.6.6',
+693 silly addNameRange     '5.6.5',
+693 silly addNameRange     '5.6.4',
+693 silly addNameRange     '5.6.3',
+693 silly addNameRange     '5.6.2',
+693 silly addNameRange     '5.6.1',
+693 silly addNameRange     '5.5.8',
+693 silly addNameRange     '5.5.7',
+693 silly addNameRange     '5.5.6',
+693 silly addNameRange     '5.5.5',
+693 silly addNameRange     '5.5.4',
+693 silly addNameRange     '5.5.2',
+693 silly addNameRange     '5.5.3',
+693 silly addNameRange     '5.5.1',
+693 silly addNameRange     '5.5.0',
+693 silly addNameRange     '5.4.7',
+693 silly addNameRange     '5.4.6',
+693 silly addNameRange     '5.4.5',
+693 silly addNameRange     '5.4.4',
+693 silly addNameRange     '5.4.3',
+693 silly addNameRange     '5.4.2',
+693 silly addNameRange     '5.4.1',
+693 silly addNameRange     '5.4.0',
+693 silly addNameRange     '5.3.3',
+693 silly addNameRange     '5.3.2',
+693 silly addNameRange     '5.3.1',
+693 silly addNameRange     '5.3.0',
+693 silly addNameRange     '5.2.17',
+693 silly addNameRange     '5.2.16',
+693 silly addNameRange     '5.2.15',
+693 silly addNameRange     '5.2.14',
+693 silly addNameRange     '5.2.13',
+693 silly addNameRange     '5.2.12',
+693 silly addNameRange     '5.2.11',
+693 silly addNameRange     '5.2.10',
+693 silly addNameRange     '5.2.9',
+693 silly addNameRange     '5.2.7',
+693 silly addNameRange     '5.2.6',
+693 silly addNameRange     '5.2.5',
+693 silly addNameRange     '5.2.4',
+693 silly addNameRange     '5.2.3',
+693 silly addNameRange     '5.2.2',
+693 silly addNameRange     '5.2.1',
+693 silly addNameRange     '5.2.0',
+693 silly addNameRange     '5.1.13',
+693 silly addNameRange     '5.1.12',
+693 silly addNameRange     '5.1.11',
+693 silly addNameRange     '5.1.10',
+693 silly addNameRange     '5.1.9',
+693 silly addNameRange     '5.1.8',
+693 silly addNameRange     '5.1.7',
+693 silly addNameRange     '5.1.6',
+693 silly addNameRange     '5.1.5',
+693 silly addNameRange     '5.1.4',
+693 silly addNameRange     '5.1.3',
+693 silly addNameRange     '5.1.2',
+693 silly addNameRange     '5.1.1',
+693 silly addNameRange     '5.1.0',
+693 silly addNameRange     '5.0.13',
+693 silly addNameRange     '5.0.12',
+693 silly addNameRange     '5.0.11',
+693 silly addNameRange     '5.0.10',
+693 silly addNameRange     '5.0.9',
+693 silly addNameRange     '5.0.8',
+693 silly addNameRange     '5.0.7',
+693 silly addNameRange     '5.0.6',
+693 silly addNameRange     '5.0.5',
+693 silly addNameRange     '5.0.4',
+693 silly addNameRange     '5.0.3',
+693 silly addNameRange     '5.0.2',
+693 silly addNameRange     '5.0.1',
+693 silly addNameRange     '5.0.0',
+693 silly addNameRange     '5.0.0-beta4',
+693 silly addNameRange     '5.0.0-beta3',
+693 silly addNameRange     '5.0.0-beta2',
+693 silly addNameRange     '4.7.16',
+693 silly addNameRange     '4.7.15',
+693 silly addNameRange     '4.7.14',
+693 silly addNameRange     '4.7.13',
+693 silly addNameRange     '4.7.12',
+693 silly addNameRange     '4.7.11',
+693 silly addNameRange     '4.7.10',
+693 silly addNameRange     '4.7.9',
+693 silly addNameRange     '4.7.8',
+693 silly addNameRange     '4.7.7',
+693 silly addNameRange     '4.7.6',
+693 silly addNameRange     '4.7.5',
+693 silly addNameRange     '4.7.4',
+693 silly addNameRange     '4.7.3',
+693 silly addNameRange     '4.7.2',
+693 silly addNameRange     '4.7.1',
+693 silly addNameRange     '4.7.0',
+693 silly addNameRange     '4.6.6',
+693 silly addNameRange     '4.6.5',
+693 silly addNameRange     '4.6.4',
+693 silly addNameRange     '4.6.3',
+693 silly addNameRange     '4.6.1',
+693 silly addNameRange     '4.6.0',
+693 silly addNameRange     '4.5.5',
+693 silly addNameRange     '4.5.4',
+693 silly addNameRange     '4.5.3',
+693 silly addNameRange     '4.5.2',
+693 silly addNameRange     '4.5.1',
+693 silly addNameRange     '4.5.0',
+693 silly addNameRange     '4.4.6',
+693 silly addNameRange     '4.4.5',
+693 silly addNameRange     '4.4.4',
+693 silly addNameRange     '4.4.3',
+693 silly addNameRange     '4.4.2',
+693 silly addNameRange     '4.4.1',
+693 silly addNameRange     '4.3.0',
+693 silly addNameRange     '4.2.1',
+693 silly addNameRange     '4.2.0',
+693 silly addNameRange     '4.1.1',
+693 silly addNameRange     '4.0.2',
+693 silly addNameRange     '4.0.1',
+693 silly addNameRange     '0.0.1' ] ]
+694 silly addNamed babel@5.8.38
+695 verbose addNamed "5.8.38" is a plain semver version for babel
+696 http fetch 200 https://registry.npm.taobao.org/blessed/download/blessed-0.0.37.tgz
+697 silly mapToRegistry name jsdom
+698 silly mapToRegistry using default registry
+699 silly mapToRegistry registry https://registry.npm.taobao.org/
+700 silly mapToRegistry data Result {
+700 silly mapToRegistry   raw: 'jsdom',
+700 silly mapToRegistry   scope: null,
+700 silly mapToRegistry   name: 'jsdom',
+700 silly mapToRegistry   rawSpec: '',
+700 silly mapToRegistry   spec: 'latest',
+700 silly mapToRegistry   type: 'tag' }
+701 silly mapToRegistry uri https://registry.npm.taobao.org/jsdom
+702 verbose addRemoteTarball https://registry.npm.taobao.org/jsdom/download/jsdom-7.2.2.tgz not in flight; adding
+703 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/jsdom/download/jsdom-7.2.2.tgz',
+703 verbose addRemoteTarball   '40b402770c2bda23469096bee91ab675e3b1fc6e' ]
+704 silly mapToRegistry name babel
+705 silly mapToRegistry using default registry
+706 silly mapToRegistry registry https://registry.npm.taobao.org/
+707 silly mapToRegistry data Result {
+707 silly mapToRegistry   raw: 'babel',
+707 silly mapToRegistry   scope: null,
+707 silly mapToRegistry   name: 'babel',
+707 silly mapToRegistry   rawSpec: '',
+707 silly mapToRegistry   spec: 'latest',
+707 silly mapToRegistry   type: 'tag' }
+708 silly mapToRegistry uri https://registry.npm.taobao.org/babel
+709 verbose addRemoteTarball https://registry.npm.taobao.org/babel/download/babel-5.8.38.tgz not in flight; adding
+710 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/babel/download/babel-5.8.38.tgz',
+710 verbose addRemoteTarball   'dfb087c22894917c576fb67ce9cf328d458629fb' ]
+711 info retry fetch attempt 1 at 00:10:37
+712 info attempt registry request try #1 at 00:10:37
+713 http fetch GET https://registry.npm.taobao.org/jsdom/download/jsdom-7.2.2.tgz
+714 info retry fetch attempt 1 at 00:10:37
+715 info attempt registry request try #1 at 00:10:37
+716 http fetch GET https://registry.npm.taobao.org/babel/download/babel-5.8.38.tgz
+717 silly fetchAndShaCheck shasum f78501ed8c2ec6e6e31c3223652e97f1369d2bd6
+718 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\react\download\react-15.3.1.tgz not in flight; adding
+719 verbose addTmpTarball already have metadata; skipping unpack for react@15.3.1
+720 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+721 silly cache afterAdd react@15.3.1
+722 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react\15.3.1\package\package.json not in flight; writing
+723 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+724 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react\15.3.1\package\package.json written
+725 http fetch 200 https://registry.npm.taobao.org/jsdom/download/jsdom-7.2.2.tgz
+726 silly fetchAndShaCheck shasum cfe6e2425b4167becdf515c02ad3dc1b4ce37166
+727 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\blessed\download\blessed-0.0.37.tgz not in flight; adding
+728 verbose addTmpTarball already have metadata; skipping unpack for blessed@0.0.37
+729 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+730 silly cache afterAdd blessed@0.0.37
+731 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\blessed\0.0.37\package\package.json not in flight; writing
+732 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+733 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\blessed\0.0.37\package\package.json written
+734 http fetch 200 https://registry.npm.taobao.org/babel/download/babel-5.8.38.tgz
+735 silly fetchAndShaCheck shasum 40b402770c2bda23469096bee91ab675e3b1fc6e
+736 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\jsdom\download\jsdom-7.2.2.tgz not in flight; adding
+737 verbose addTmpTarball already have metadata; skipping unpack for jsdom@7.2.2
+738 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+739 silly cache afterAdd jsdom@7.2.2
+740 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\jsdom\7.2.2\package\package.json not in flight; writing
+741 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+742 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\jsdom\7.2.2\package\package.json written
+743 silly fetchAndShaCheck shasum dfb087c22894917c576fb67ce9cf328d458629fb
+744 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\babel\download\babel-5.8.38.tgz not in flight; adding
+745 verbose addTmpTarball already have metadata; skipping unpack for babel@5.8.38
+746 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+747 silly cache afterAdd babel@5.8.38
+748 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel\5.8.38\package\package.json not in flight; writing
+749 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+750 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel\5.8.38\package\package.json written
+751 http 200 https://registry.npm.taobao.org/mocha
+752 verbose headers { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+752 verbose headers   'content-type': 'application/json; charset=utf-8',
+752 verbose headers   'content-length': '511316',
+752 verbose headers   connection: 'keep-alive',
+752 verbose headers   'x-current-requests': '1',
+752 verbose headers   etag: '"7cd54-sZrbznu0pjTafS3D7OIHPg"',
+752 verbose headers   'x-readtime': '163' }
+753 silly get cb [ 200,
+753 silly get   { date: 'Thu, 08 Sep 2016 16:10:36 GMT',
+753 silly get     'content-type': 'application/json; charset=utf-8',
+753 silly get     'content-length': '511316',
+753 silly get     connection: 'keep-alive',
+753 silly get     'x-current-requests': '1',
+753 silly get     etag: '"7cd54-sZrbznu0pjTafS3D7OIHPg"',
+753 silly get     'x-readtime': '163' } ]
+754 verbose get saving mocha to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\mocha\.cache.json
+755 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+756 silly addNameRange number 2 { name: 'mocha', range: '>=1.19.0 <2.0.0', hasData: true }
+757 silly addNameRange versions [ 'mocha',
+757 silly addNameRange   [ '3.0.2',
+757 silly addNameRange     '3.0.1',
+757 silly addNameRange     '3.0.0',
+757 silly addNameRange     '3.0.0-2',
+757 silly addNameRange     '3.0.0-1',
+757 silly addNameRange     '3.0.0-0',
+757 silly addNameRange     '2.5.3',
+757 silly addNameRange     '2.5.2',
+757 silly addNameRange     '2.5.1',
+757 silly addNameRange     '2.5.0',
+757 silly addNameRange     '2.4.5',
+757 silly addNameRange     '2.4.4',
+757 silly addNameRange     '2.4.3',
+757 silly addNameRange     '2.4.2',
+757 silly addNameRange     '2.4.1',
+757 silly addNameRange     '2.3.4',
+757 silly addNameRange     '2.3.3',
+757 silly addNameRange     '2.3.2',
+757 silly addNameRange     '2.3.1',
+757 silly addNameRange     '2.3.0',
+757 silly addNameRange     '2.2.5',
+757 silly addNameRange     '2.2.4',
+757 silly addNameRange     '2.2.3',
+757 silly addNameRange     '2.2.1',
+757 silly addNameRange     '2.2.0',
+757 silly addNameRange     '2.1.0',
+757 silly addNameRange     '2.0.1',
+757 silly addNameRange     '2.0.0',
+757 silly addNameRange     '1.21.5',
+757 silly addNameRange     '1.21.4',
+757 silly addNameRange     '1.21.3',
+757 silly addNameRange     '1.21.2',
+757 silly addNameRange     '1.21.1',
+757 silly addNameRange     '1.21.0',
+757 silly addNameRange     '1.20.1',
+757 silly addNameRange     '1.20.0',
+757 silly addNameRange     '1.19.0',
+757 silly addNameRange     '1.18.2',
+757 silly addNameRange     '1.18.1',
+757 silly addNameRange     '1.18.0',
+757 silly addNameRange     '1.17.1',
+757 silly addNameRange     '1.17.0',
+757 silly addNameRange     '1.16.2',
+757 silly addNameRange     '1.16.1',
+757 silly addNameRange     '1.16.0',
+757 silly addNameRange     '1.15.1',
+757 silly addNameRange     '1.15.0',
+757 silly addNameRange     '1.14.0',
+757 silly addNameRange     '1.13.0',
+757 silly addNameRange     '1.12.1',
+757 silly addNameRange     '1.12.0',
+757 silly addNameRange     '1.11.0',
+757 silly addNameRange     '1.10.0',
+757 silly addNameRange     '1.9.0',
+757 silly addNameRange     '1.8.2',
+757 silly addNameRange     '1.8.1',
+757 silly addNameRange     '1.8.0',
+757 silly addNameRange     '1.7.4',
+757 silly addNameRange     '1.7.3',
+757 silly addNameRange     '1.7.2',
+757 silly addNameRange     '1.7.1',
+757 silly addNameRange     '1.7.0',
+757 silly addNameRange     '1.6.0',
+757 silly addNameRange     '1.5.0',
+757 silly addNameRange     '1.4.3',
+757 silly addNameRange     '1.4.2',
+757 silly addNameRange     '1.4.1',
+757 silly addNameRange     '1.4.0',
+757 silly addNameRange     '1.3.2',
+757 silly addNameRange     '1.3.1',
+757 silly addNameRange     '1.3.0',
+757 silly addNameRange     '1.2.2',
+757 silly addNameRange     '1.2.1',
+757 silly addNameRange     '1.2.0',
+757 silly addNameRange     '1.1.0',
+757 silly addNameRange     '1.0.3',
+757 silly addNameRange     '1.0.2',
+757 silly addNameRange     '1.0.1',
+757 silly addNameRange     '1.0.0',
+757 silly addNameRange     '0.14.1',
+757 silly addNameRange     '0.14.0',
+757 silly addNameRange     '0.13.0',
+757 silly addNameRange     '0.12.1',
+757 silly addNameRange     '0.12.0',
+757 silly addNameRange     '0.11.0',
+757 silly addNameRange     '0.10.2',
+757 silly addNameRange     '0.10.1',
+757 silly addNameRange     '0.10.0',
+757 silly addNameRange     '0.9.0',
+757 silly addNameRange     '0.8.1',
+757 silly addNameRange     '0.8.0',
+757 silly addNameRange     '0.7.1',
+757 silly addNameRange     '0.7.0',
+757 silly addNameRange     '0.6.0',
+757 silly addNameRange     '0.5.0',
+757 silly addNameRange     '0.4.0',
+757 silly addNameRange     '0.3.6',
+757 silly addNameRange     '0.3.4',
+757 silly addNameRange     '0.3.3',
+757 silly addNameRange     '0.3.2',
+757 silly addNameRange     '0.3.1',
+757 silly addNameRange     '0.3.0',
+757 silly addNameRange     '0.2.0',
+757 silly addNameRange     '0.1.0',
+757 silly addNameRange     '0.0.8',
+757 silly addNameRange     '0.0.7',
+757 silly addNameRange     '0.0.6',
+757 silly addNameRange     '0.0.5',
+757 silly addNameRange     '0.0.4',
+757 silly addNameRange     '0.0.3',
+757 silly addNameRange     '0.0.2',
+757 silly addNameRange     '0.0.1',
+757 silly addNameRange     '0.0.1-alpha6',
+757 silly addNameRange     '0.0.1-alpha5',
+757 silly addNameRange     '0.0.1-alpha4',
+757 silly addNameRange     '0.0.1-alpha3',
+757 silly addNameRange     '0.0.1-alpha2',
+757 silly addNameRange     '0.0.1-alpha1' ] ]
+758 silly addNamed mocha@1.21.5
+759 verbose addNamed "1.21.5" is a plain semver version for mocha
+760 silly mapToRegistry name mocha
+761 silly mapToRegistry using default registry
+762 silly mapToRegistry registry https://registry.npm.taobao.org/
+763 silly mapToRegistry data Result {
+763 silly mapToRegistry   raw: 'mocha',
+763 silly mapToRegistry   scope: null,
+763 silly mapToRegistry   name: 'mocha',
+763 silly mapToRegistry   rawSpec: '',
+763 silly mapToRegistry   spec: 'latest',
+763 silly mapToRegistry   type: 'tag' }
+764 silly mapToRegistry uri https://registry.npm.taobao.org/mocha
+765 verbose addRemoteTarball https://registry.npm.taobao.org/mocha/download/mocha-1.21.5.tgz not in flight; adding
+766 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/mocha/download/mocha-1.21.5.tgz',
+766 verbose addRemoteTarball   '7c58b09174df976e434a23b1e8d639873fc529e9' ]
+767 info retry fetch attempt 1 at 00:10:37
+768 info attempt registry request try #1 at 00:10:37
+769 http fetch GET https://registry.npm.taobao.org/mocha/download/mocha-1.21.5.tgz
+770 http fetch 200 https://registry.npm.taobao.org/mocha/download/mocha-1.21.5.tgz
+771 silly fetchAndShaCheck shasum 7c58b09174df976e434a23b1e8d639873fc529e9
+772 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\mocha\download\mocha-1.21.5.tgz not in flight; adding
+773 verbose addTmpTarball already have metadata; skipping unpack for mocha@1.21.5
+774 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+775 silly cache afterAdd mocha@1.21.5
+776 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\mocha\1.21.5\package\package.json not in flight; writing
+777 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+778 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\mocha\1.21.5\package\package.json written
+779 http 200 https://registry.npm.taobao.org/browserify
+780 verbose headers { date: 'Thu, 08 Sep 2016 16:10:37 GMT',
+780 verbose headers   'content-type': 'application/json; charset=utf-8',
+780 verbose headers   'content-length': '1140183',
+780 verbose headers   connection: 'keep-alive',
+780 verbose headers   'x-current-requests': '1',
+780 verbose headers   etag: '"1165d7-mu1X7QFEkAjWvZYW3nLzVA"',
+780 verbose headers   'x-readtime': '753' }
+781 silly get cb [ 200,
+781 silly get   { date: 'Thu, 08 Sep 2016 16:10:37 GMT',
+781 silly get     'content-type': 'application/json; charset=utf-8',
+781 silly get     'content-length': '1140183',
+781 silly get     connection: 'keep-alive',
+781 silly get     'x-current-requests': '1',
+781 silly get     etag: '"1165d7-mu1X7QFEkAjWvZYW3nLzVA"',
+781 silly get     'x-readtime': '753' } ]
+782 verbose get saving browserify to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\browserify\.cache.json
+783 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+784 silly addNameRange number 2 { name: 'browserify', range: '>=11.1.0 <12.0.0', hasData: true }
+785 silly addNameRange versions [ 'browserify',
+785 silly addNameRange   [ '13.1.0',
+785 silly addNameRange     '13.0.1',
+785 silly addNameRange     '13.0.0',
+785 silly addNameRange     '12.0.2',
+785 silly addNameRange     '12.0.1',
+785 silly addNameRange     '12.0.0',
+785 silly addNameRange     '11.2.0',
+785 silly addNameRange     '11.1.0',
+785 silly addNameRange     '11.0.1',
+785 silly addNameRange     '11.0.0',
+785 silly addNameRange     '10.2.6',
+785 silly addNameRange     '10.2.5',
+785 silly addNameRange     '10.2.4',
+785 silly addNameRange     '10.2.3',
+785 silly addNameRange     '10.2.1',
+785 silly addNameRange     '10.2.0',
+785 silly addNameRange     '10.1.3',
+785 silly addNameRange     '10.1.2',
+785 silly addNameRange     '10.1.1',
+785 silly addNameRange     '10.1.0',
+785 silly addNameRange     '10.0.0',
+785 silly addNameRange     '9.0.8',
+785 silly addNameRange     '9.0.7',
+785 silly addNameRange     '9.0.6',
+785 silly addNameRange     '9.0.5',
+785 silly addNameRange     '9.0.4',
+785 silly addNameRange     '9.0.3',
+785 silly addNameRange     '9.0.2',
+785 silly addNameRange     '9.0.1',
+785 silly addNameRange     '9.0.0',
+785 silly addNameRange     '8.1.3',
+785 silly addNameRange     '8.1.2',
+785 silly addNameRange     '8.1.1',
+785 silly addNameRange     '8.1.0',
+785 silly addNameRange     '8.0.3',
+785 silly addNameRange     '8.0.2',
+785 silly addNameRange     '8.0.1',
+785 silly addNameRange     '8.0.0',
+785 silly addNameRange     '7.1.0',
+785 silly addNameRange     '7.0.3',
+785 silly addNameRange     '7.0.2',
+785 silly addNameRange     '7.0.1',
+785 silly addNameRange     '7.0.0',
+785 silly addNameRange     '6.3.4',
+785 silly addNameRange     '6.3.3',
+785 silly addNameRange     '6.3.2',
+785 silly addNameRange     '6.3.1',
+785 silly addNameRange     '6.3.0',
+785 silly addNameRange     '6.2.0',
+785 silly addNameRange     '6.1.2',
+785 silly addNameRange     '6.1.1',
+785 silly addNameRange     '6.1.0',
+785 silly addNameRange     '6.0.3',
+785 silly addNameRange     '6.0.2',
+785 silly addNameRange     '6.0.1',
+785 silly addNameRange     '6.0.0',
+785 silly addNameRange     '5.13.1',
+785 silly addNameRange     '5.13.0',
+785 silly addNameRange     '5.12.2',
+785 silly addNameRange     '5.12.1',
+785 silly addNameRange     '5.12.0',
+785 silly addNameRange     '5.11.2',
+785 silly addNameRange     '5.11.1',
+785 silly addNameRange     '5.11.0',
+785 silly addNameRange     '5.10.1',
+785 silly addNameRange     '5.10.0',
+785 silly addNameRange     '5.9.3',
+785 silly addNameRange     '5.9.2',
+785 silly addNameRange     '5.9.1',
+785 silly addNameRange     '5.9.0',
+785 silly addNameRange     '5.8.0',
+785 silly addNameRange     '5.7.0',
+785 silly addNameRange     '5.6.1',
+785 silly addNameRange     '5.6.0',
+785 silly addNameRange     '5.5.0',
+785 silly addNameRange     '5.4.2',
+785 silly addNameRange     '5.4.1',
+785 silly addNameRange     '5.4.0',
+785 silly addNameRange     '5.3.0',
+785 silly addNameRange     '5.2.1',
+785 silly addNameRange     '5.2.0',
+785 silly addNameRange     '5.1.1',
+785 silly addNameRange     '5.1.0',
+785 silly addNameRange     '5.0.8',
+785 silly addNameRange     '5.0.7',
+785 silly addNameRange     '5.0.6',
+785 silly addNameRange     '5.0.5',
+785 silly addNameRange     '5.0.4',
+785 silly addNameRange     '5.0.3',
+785 silly addNameRange     '5.0.2',
+785 silly addNameRange     '5.0.1',
+785 silly addNameRange     '5.0.0',
+785 silly addNameRange     '4.2.3',
+785 silly addNameRange     '4.2.2',
+785 silly addNameRange     '4.2.1',
+785 silly addNameRange     '4.2.0',
+785 silly addNameRange     '4.1.11',
+785 silly addNameRange     '4.1.10',
+785 silly addNameRange     '4.1.9',
+785 silly addNameRange     '4.1.8',
+785 silly addNameRange     '4.1.7',
+785 silly addNameRange     '4.1.6',
+785 silly addNameRange     '4.1.5',
+785 silly addNameRange     '4.1.4',
+785 silly addNameRange     '4.1.3',
+785 silly addNameRange     '4.1.2',
+785 silly addNameRange     '4.1.1',
+785 silly addNameRange     '4.1.0',
+785 silly addNameRange     '4.0.0',
+785 silly addNameRange     '3.46.1',
+785 silly addNameRange     '3.46.0',
+785 silly addNameRange     '3.45.0',
+785 silly addNameRange     '3.44.2',
+785 silly addNameRange     '3.44.1',
+785 silly addNameRange     '3.44.0',
+785 silly addNameRange     '3.43.0',
+785 silly addNameRange     '3.42.0',
+785 silly addNameRange     '1.15.4',
+785 silly addNameRange     '3.41.0',
+785 silly addNameRange     '3.40.4',
+785 silly addNameRange     '3.40.3',
+785 silly addNameRange     '3.40.2',
+785 silly addNameRange     '3.40.1',
+785 silly addNameRange     '3.40.0',
+785 silly addNameRange     '3.39.0',
+785 silly addNameRange     '3.38.1',
+785 silly addNameRange     '3.38.0',
+785 silly addNameRange     '3.37.2',
+785 silly addNameRange     '3.37.1',
+785 silly addNameRange     '3.37.0',
+785 silly addNameRange     '3.36.1',
+785 silly addNameRange     '3.36.0',
+785 silly addNameRange     '3.35.0',
+785 silly addNameRange     '3.34.0',
+785 silly addNameRange     '3.33.1',
+785 silly addNameRange     '3.33.0',
+785 silly addNameRange     '3.32.1',
+785 silly addNameRange     '3.32.0',
+785 silly addNameRange     '3.31.2',
+785 silly addNameRange     '3.31.1',
+785 silly addNameRange     '3.31.0',
+785 silly addNameRange     '3.30.4',
+785 silly addNameRange     '3.30.3',
+785 silly addNameRange     '3.30.2',
+785 silly addNameRange     '3.30.1',
+785 silly addNameRange     '3.30.0',
+785 silly addNameRange     '3.29.1',
+785 silly addNameRange     '3.29.0',
+785 silly addNameRange     '3.28.2',
+785 silly addNameRange     '3.28.1',
+785 silly addNameRange     '3.28.0',
+785 silly addNameRange     '3.27.1',
+785 silly addNameRange     '3.27.0',
+785 silly addNameRange     '3.26.0',
+785 silly addNameRange     '3.25.2',
+785 silly addNameRange     '3.25.1',
+785 silly addNameRange     '3.25.0',
+785 silly addNameRange     '3.24.13',
+785 silly addNameRange     '3.24.11',
+785 silly addNameRange     '3.24.10',
+785 silly addNameRange     '3.24.9',
+785 silly addNameRange     '3.24.8',
+785 silly addNameRange     '3.24.7',
+785 silly addNameRange     '3.24.6',
+785 silly addNameRange     '3.24.5',
+785 silly addNameRange     '3.24.4',
+785 silly addNameRange     '3.24.3',
+785 silly addNameRange     '3.24.2',
+785 silly addNameRange     '3.24.1',
+785 silly addNameRange     '3.24.0',
+785 silly addNameRange     '3.23.1',
+785 silly addNameRange     '3.23.0',
+785 silly addNameRange     '3.22.1',
+785 silly addNameRange     '3.22.0',
+785 silly addNameRange     '3.21.1',
+785 silly addNameRange     '3.21.0',
+785 silly addNameRange     '3.20.2',
+785 silly addNameRange     '3.20.1',
+785 silly addNameRange     '3.20.0',
+785 silly addNameRange     '3.19.1',
+785 silly addNameRange     '3.19.0',
+785 silly addNameRange     '3.18.0',
+785 silly addNameRange     '3.17.0',
+785 silly addNameRange     '3.16.1',
+785 silly addNameRange     '3.16.0',
+785 silly addNameRange     '3.14.1',
+785 silly addNameRange     '3.14.0',
+785 silly addNameRange     '3.13.0',
+785 silly addNameRange     '3.12.0',
+785 silly addNameRange     '3.11.1',
+785 silly addNameRange     '3.11.0',
+785 silly addNameRange     '3.10.0',
+785 silly addNameRange     '3.9.1',
+785 silly addNameRange     '3.9.0',
+785 silly addNameRange     '3.8.1',
+785 silly addNameRange     '3.8.0',
+785 silly addNameRange     '3.7.0',
+785 silly addNameRange     '3.6.0',
+785 silly addNameRange     '3.5.0',
+785 silly addNameRange     '3.4.1',
+785 silly addNameRange     '3.4.0',
+785 silly addNameRange     '3.3.0',
+785 silly addNameRange     '3.2.2',
+785 silly addNameRange     '3.2.1',
+785 silly addNameRange     '3.2.0',
+785 silly addNameRange     '3.1.3',
+785 silly addNameRange     '3.1.2',
+785 silly addNameRange     '3.1.1',
+785 silly addNameRange     '3.1.0',
+785 silly addNameRange     '3.0.0',
+785 silly addNameRange     '2.36.1',
+785 silly addNameRange     '2.36.0',
+785 silly addNameRange     '2.35.4',
+785 silly addNameRange     '2.35.3',
+785 silly addNameRange     '2.35.2',
+785 silly addNameRange     '2.35.1',
+785 silly addNameRange     '2.35.0',
+785 silly addNameRange     '2.34.3',
+785 silly addNameRange     '2.34.2',
+785 silly addNameRange     '2.34.1',
+785 silly addNameRange     '2.34.0',
+785 silly addNameRange     '2.33.1',
+785 silly addNameRange     '2.33.0',
+785 silly addNameRange     '2.32.4',
+785 silly addNameRange     '2.32.3',
+785 silly addNameRange     '2.32.2',
+785 silly addNameRange     '2.32.1',
+785 silly addNameRange     '2.32.0',
+785 silly addNameRange     '2.31.0',
+785 silly addNameRange     '2.30.0',
+785 silly addNameRange     '2.29.1',
+785 silly addNameRange     '2.29.0',
+785 silly addNameRange     '2.28.0',
+785 silly addNameRange     '2.27.1',
+785 silly addNameRange     '2.27.0',
+785 silly addNameRange     '2.26.0',
+785 silly addNameRange     '2.25.1',
+785 silly addNameRange     '2.25.0',
+785 silly addNameRange     '2.24.3',
+785 silly addNameRange     '2.24.2',
+785 silly addNameRange     '2.24.1',
+785 silly addNameRange     '2.24.0',
+785 silly addNameRange     '2.23.1',
+785 silly addNameRange     '2.23.0',
+785 silly addNameRange     '2.22.0',
+785 silly addNameRange     '2.21.0',
+785 silly addNameRange     '2.20.2',
+785 silly addNameRange     '2.20.1',
+785 silly addNameRange     '2.20.0',
+785 silly addNameRange     '2.19.0',
+785 silly addNameRange     '2.18.1',
+785 silly addNameRange     '2.18.0',
+785 silly addNameRange     '2.17.4',
+785 silly addNameRange     '2.17.3',
+785 silly addNameRange     '2.17.2',
+785 silly addNameRange     '2.17.1',
+785 silly addNameRange     '2.17.0',
+785 silly addNameRange     '2.16.0',
+785 silly addNameRange     '2.15.0',
+785 silly addNameRange     '2.14.2',
+785 silly addNameRange     '2.14.1',
+785 silly addNameRange     '2.14.0',
+785 silly addNameRange     '2.13.3',
+785 silly addNameRange     '2.13.2',
+785 silly addNameRange     '2.13.1',
+785 silly addNameRange     '2.13.0',
+785 silly addNameRange     '2.12.5',
+785 silly addNameRange     '2.12.4',
+785 silly addNameRange     '2.12.3',
+785 silly addNameRange     '2.12.2',
+785 silly addNameRange     '2.12.1',
+785 silly addNameRange     '2.12.0',
+785 silly addNameRange     '2.11.0',
+785 silly addNameRange     '2.10.2',
+785 silly addNameRange     '2.10.1',
+785 silly addNameRange     '2.10.0',
+785 silly addNameRange     '2.9.0',
+785 silly addNameRange     '2.8.1',
+785 silly addNameRange     '2.8.0',
+785 silly addNameRange     '2.7.4',
+785 silly addNameRange     '2.7.3',
+785 silly addNameRange     '2.7.2',
+785 silly addNameRange     '2.7.1',
+785 silly addNameRange     '2.7.0',
+785 silly addNameRange     '2.6.1',
+785 silly addNameRange     '2.6.0',
+785 silly addNameRange     '2.5.1',
+785 silly addNameRange     '2.5.0',
+785 silly addNameRange     '2.4.3',
+785 silly addNameRange     '2.4.2',
+785 silly addNameRange     '2.4.1',
+785 silly addNameRange     '2.4.0',
+785 silly addNameRange     '2.3.1',
+785 silly addNameRange     '2.3.0',
+785 silly addNameRange     '2.2.6',
+785 silly addNameRange     '2.2.5',
+785 silly addNameRange     '2.2.4',
+785 silly addNameRange     '2.2.3',
+785 silly addNameRange     '2.2.2',
+785 silly addNameRange     '2.2.1',
+785 silly addNameRange     '2.2.0',
+785 silly addNameRange     '2.1.0',
+785 silly addNameRange     '2.0.1',
+785 silly addNameRange     '2.0.0',
+785 silly addNameRange     '1.18.0',
+785 silly addNameRange     '1.17.3',
+785 silly addNameRange     '1.17.2',
+785 silly addNameRange     '1.17.1',
+785 silly addNameRange     '1.17.0',
+785 silly addNameRange     '1.16.8',
+785 silly addNameRange     '1.16.7',
+785 silly addNameRange     '1.16.6',
+785 silly addNameRange     '1.16.5',
+785 silly addNameRange     '1.16.4',
+785 silly addNameRange     '1.16.3',
+785 silly addNameRange     '1.16.2',
+785 silly addNameRange     '1.16.1',
+785 silly addNameRange     '1.16.0',
+785 silly addNameRange     '1.15.6',
+785 silly addNameRange     '1.15.5',
+785 silly addNameRange     '1.15.3',
+785 silly addNameRange     '1.15.2',
+785 silly addNameRange     '1.15.1',
+785 silly addNameRange     '1.15.0',
+785 silly addNameRange     '1.14.5',
+785 silly addNameRange     '1.14.4',
+785 silly addNameRange     '1.14.3',
+785 silly addNameRange     '1.14.2',
+785 silly addNameRange     '1.14.1',
+785 silly addNameRange     '1.14.0',
+785 silly addNameRange     '1.13.10',
+785 silly addNameRange     '1.13.9',
+785 silly addNameRange     '1.13.8',
+785 silly addNameRange     '1.13.6',
+785 silly addNameRange     '1.13.5',
+785 silly addNameRange     '1.13.4',
+785 silly addNameRange     '1.13.3',
+785 silly addNameRange     '1.13.2',
+785 silly addNameRange     '1.13.1',
+785 silly addNameRange     '1.13.0',
+785 silly addNameRange     '1.12.3',
+785 silly addNameRange     '1.12.2',
+785 silly addNameRange     '1.12.1',
+785 silly addNameRange     '1.12.0',
+785 silly addNameRange     '1.11.1',
+785 silly addNameRange     '1.11.0',
+785 silly addNameRange     '1.10.17',
+785 silly addNameRange     '1.10.16',
+785 silly addNameRange     '1.10.15',
+785 silly addNameRange     '1.10.14',
+785 silly addNameRange     '1.10.13',
+785 silly addNameRange     '1.10.12',
+785 silly addNameRange     '1.10.11',
+785 silly addNameRange     '1.10.9',
+785 silly addNameRange     '1.10.8',
+785 silly addNameRange     '1.10.7',
+785 silly addNameRange     '1.10.6',
+785 silly addNameRange     '1.10.5',
+785 silly addNameRange     '1.10.4',
+785 silly addNameRange     '1.10.3',
+785 silly addNameRange     '1.10.2',
+785 silly addNameRange     '1.10.1',
+785 silly addNameRange     '1.10.0',
+785 silly addNameRange     '1.9.4',
+785 silly addNameRange     '1.9.3',
+785 silly addNameRange     '1.9.2',
+785 silly addNameRange     '1.9.1',
+785 silly addNameRange     '1.9.0',
+785 silly addNameRange     '1.8.3',
+785 silly addNameRange     '1.8.2',
+785 silly addNameRange     '1.8.1',
+785 silly addNameRange     '1.8.0',
+785 silly addNameRange     '1.7.7',
+785 silly addNameRange     '1.7.6',
+785 silly addNameRange     '1.7.5',
+785 silly addNameRange     '1.7.4',
+785 silly addNameRange     '1.7.3',
+785 silly addNameRange     '1.7.2',
+785 silly addNameRange     '1.7.1',
+785 silly addNameRange     '1.7.0',
+785 silly addNameRange     '1.6.1',
+785 silly addNameRange     '1.6.0',
+785 silly addNameRange     '1.5.0',
+785 silly addNameRange     '1.4.8',
+785 silly addNameRange     '1.4.7',
+785 silly addNameRange     '1.4.6',
+785 silly addNameRange     '1.4.5',
+785 silly addNameRange     '1.4.4',
+785 silly addNameRange     '1.4.3',
+785 silly addNameRange     '1.4.2',
+785 silly addNameRange     '1.4.1',
+785 silly addNameRange     '1.4.0',
+785 silly addNameRange     '1.3.0',
+785 silly addNameRange     '1.2.9',
+785 silly addNameRange     '1.2.8',
+785 silly addNameRange     '1.2.7',
+785 silly addNameRange     '1.2.6',
+785 silly addNameRange     '1.2.5',
+785 silly addNameRange     '1.2.4',
+785 silly addNameRange     '1.2.3',
+785 silly addNameRange     '1.2.2',
+785 silly addNameRange     '1.2.1',
+785 silly addNameRange     '1.2.0',
+785 silly addNameRange     '1.1.4',
+785 silly addNameRange     '1.1.3',
+785 silly addNameRange     '1.1.2',
+785 silly addNameRange     '1.1.1',
+785 silly addNameRange     '1.1.0',
+785 silly addNameRange     '1.0.0',
+785 silly addNameRange     '0.5.2',
+785 silly addNameRange     '0.5.1',
+785 silly addNameRange     '0.5.0',
+785 silly addNameRange     '0.4.15',
+785 silly addNameRange     '0.4.14',
+785 silly addNameRange     '0.4.13',
+785 silly addNameRange     '0.4.12',
+785 silly addNameRange     '0.4.11',
+785 silly addNameRange     '0.4.10',
+785 silly addNameRange     '0.4.9',
+785 silly addNameRange     '0.4.8',
+785 silly addNameRange     '0.4.7',
+785 silly addNameRange     '0.4.6',
+785 silly addNameRange     '0.4.5',
+785 silly addNameRange     '0.4.4',
+785 silly addNameRange     '0.4.3',
+785 silly addNameRange     '0.4.2',
+785 silly addNameRange     '0.4.1',
+785 silly addNameRange     '0.4.0',
+785 silly addNameRange     '0.3.7',
+785 silly addNameRange     '0.3.6',
+785 silly addNameRange     '0.3.5',
+785 silly addNameRange     '0.3.4',
+785 silly addNameRange     '0.3.3',
+785 silly addNameRange     '0.3.2',
+785 silly addNameRange     '0.3.1',
+785 silly addNameRange     '0.3.0',
+785 silly addNameRange     '0.2.11',
+785 silly addNameRange     '0.2.10',
+785 silly addNameRange     '0.2.9',
+785 silly addNameRange     '0.2.8',
+785 silly addNameRange     '0.2.7',
+785 silly addNameRange     '0.2.6',
+785 silly addNameRange     '0.2.5',
+785 silly addNameRange     '0.2.4',
+785 silly addNameRange     '0.2.3',
+785 silly addNameRange     '0.2.2',
+785 silly addNameRange     '0.2.1',
+785 silly addNameRange     '0.2.0',
+785 silly addNameRange     '0.1.5',
+785 silly addNameRange     '0.1.4',
+785 silly addNameRange     '0.1.3',
+785 silly addNameRange     '0.1.2',
+785 silly addNameRange     '0.1.1',
+785 silly addNameRange     '0.1.0',
+785 silly addNameRange     '0.0.5',
+785 silly addNameRange     '0.0.4',
+785 silly addNameRange     '0.0.3',
+785 silly addNameRange     '0.0.2',
+785 silly addNameRange     '0.0.1' ] ]
+786 silly addNamed browserify@11.2.0
+787 verbose addNamed "11.2.0" is a plain semver version for browserify
+788 silly mapToRegistry name browserify
+789 silly mapToRegistry using default registry
+790 silly mapToRegistry registry https://registry.npm.taobao.org/
+791 silly mapToRegistry data Result {
+791 silly mapToRegistry   raw: 'browserify',
+791 silly mapToRegistry   scope: null,
+791 silly mapToRegistry   name: 'browserify',
+791 silly mapToRegistry   rawSpec: '',
+791 silly mapToRegistry   spec: 'latest',
+791 silly mapToRegistry   type: 'tag' }
+792 silly mapToRegistry uri https://registry.npm.taobao.org/browserify
+793 verbose addRemoteTarball https://registry.npm.taobao.org/browserify/download/browserify-11.2.0.tgz not in flight; adding
+794 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/browserify/download/browserify-11.2.0.tgz',
+794 verbose addRemoteTarball   'a11bb9dd209d79572b813f7eeeaf828a5f5c0e4e' ]
+795 info retry fetch attempt 1 at 00:10:38
+796 info attempt registry request try #1 at 00:10:38
+797 http fetch GET https://registry.npm.taobao.org/browserify/download/browserify-11.2.0.tgz
+798 http fetch 200 https://registry.npm.taobao.org/browserify/download/browserify-11.2.0.tgz
+799 silly fetchAndShaCheck shasum a11bb9dd209d79572b813f7eeeaf828a5f5c0e4e
+800 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5968-925b30fb\registry.npm.taobao.org\browserify\download\browserify-11.2.0.tgz not in flight; adding
+801 verbose addTmpTarball already have metadata; skipping unpack for browserify@11.2.0
+802 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+803 silly cache afterAdd browserify@11.2.0
+804 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\browserify\11.2.0\package\package.json not in flight; writing
+805 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+806 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\browserify\11.2.0\package\package.json written
+807 verbose about to build C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+808 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\thinking-in-react-8d00e58518137ccf.lock for C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+809 verbose stack Error: not found: git
+809 verbose stack     at F (D:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:63:19)
+809 verbose stack     at E (D:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:72:29)
+809 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:16
+809 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+809 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+809 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+810 verbose cwd E:\js\nodejs\nodejs-web\nodejs实战
+811 error Windows_NT 10.0.14393
+812 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "thinking-in-react"
+813 error node v4.4.4
+814 error npm  v2.15.1
+815 error code ENOGIT
+816 error not found: git
+817 error Failed using git.
+817 error This is most likely not a problem with npm itself.
+817 error Please check if you have git installed and in your PATH.
+818 verbose exit [ 1, true ]
+819 verbose unbuild node_modules\thinking-in-react
+820 info preuninstall thinking-in-react@3.1.1
+821 info uninstall thinking-in-react@3.1.1
+822 verbose unbuild rmStuff thinking-in-react@3.1.1 from C:\Users\Administrator\AppData\Roaming\npm\node_modules
+823 silly gentlyRm C:\Users\Administrator\AppData\Roaming\npm\thinking-in-react.cmd is being gently removed
+824 silly gentlyRm verifying C:\Users\Administrator\AppData\Roaming\npm is an npm working directory
+825 silly gentlyRm containing path C:\Users\Administrator\AppData\Roaming\npm is under npm's control, in C:\Users\Administrator\AppData\Roaming\npm
+826 silly gentlyRm deletion target C:\Users\Administrator\AppData\Roaming\npm\thinking-in-react.cmd is under C:\Users\Administrator\AppData\Roaming\npm
+827 verbose gentlyRm vacuuming from C:\Users\Administrator\AppData\Roaming\npm\thinking-in-react.cmd up to C:\Users\Administrator\AppData\Roaming\npm
+828 silly gentlyRm C:\Users\Administrator\AppData\Roaming\npm\thinking-in-react is being gently removed
+829 silly gentlyRm verifying C:\Users\Administrator\AppData\Roaming\npm is an npm working directory
+830 silly gentlyRm containing path C:\Users\Administrator\AppData\Roaming\npm is under npm's control, in C:\Users\Administrator\AppData\Roaming\npm
+831 silly gentlyRm deletion target C:\Users\Administrator\AppData\Roaming\npm\thinking-in-react is under C:\Users\Administrator\AppData\Roaming\npm
+832 verbose gentlyRm vacuuming from C:\Users\Administrator\AppData\Roaming\npm\thinking-in-react up to C:\Users\Administrator\AppData\Roaming\npm
+833 info postuninstall thinking-in-react@3.1.1
+834 silly gentlyRm C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react is being purged from base C:\Users\Administrator\AppData\Roaming\npm
+835 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+836 silly vacuum-fs purging C:\Users\Administrator\AppData\Roaming\npm\node_modules\thinking-in-react
+837 silly vacuum-fs quitting because other entries in C:\Users\Administrator\AppData\Roaming\npm\node_modules

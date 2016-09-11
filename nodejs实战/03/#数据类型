@@ -1,0 +1,146 @@
+#数据类型
+typeof 操作符
+undefined类型
+boolean类型
+Nubmer类型
+	NaN（not a number）
+	数值转换parseInt，parseFloat
+String类型
+	字符字面量（转义字符）
+	转换威字符串（toString）
+Object对象
+
+#变量，作用域和内存问题
+基本类型和引用类型的值
+	基本类型：简单的数据段（Undefined，Null， Boolean， Number,String),不能加属性
+	引用类型：可能由多个值构成的对象（动态添加属性，方便后续修改）
+复制变量值
+执行环境及作用域
+
+#引用类
+引用类型的只是引用类型的一个实例，在ecmascript当中，引用类型是一种数据结构用于将数据和功能组织在一起，也常被称做类。
+#object类型
+ 构造函数[var o = new object()]和对象字面量[var o = {}];
+#Array类型
+ECMAScript数组的每一项可以保存任何数据类型的数据。Array构造函数[var a = new Array()]和[var a = []]
+  利用length属性可以方便给数组末尾添加新项
+  <h4>检测数组</h4>[if(value instanceof Array){}] 和 [if(Array.isArray(value)){}](ie9+)
+  <h4>转换方法</h4>toString(),valueOf(),toLocaleString()
+```
+var colors = ['red', 'blue', 'green'];
+console.log(colors.toString());
+console.log(colors.valueOf());
+console.log(colors);
+//red,blue,green
+//[ 'red', 'blue', 'green' ]
+//[ 'red', 'blue', 'green' ]
+```
+<h4>join()</h4>方法重现了toString()方法的输出。
+```
+var colors = ['red', 'blue', 'green'];
+console.log(colors.join(','));
+console.log(colors.join('||'));
+```
+<h4>栈方法（FIFO先进先出）push()加入数组最后个,pop()取出数组最后个</h4>
+```
+var colors = ['red', 'blue', 'green'];
+var count = colors.push('black');
+
+console.log(count);
+console.log(colors);
+var item = colors.pop();
+console.log(item);
+console.log(colors);
+```
+<h4>队列方法（LIFO后进先出）push(),shift()【unshift()】</h4>
+
+<h4>重排序方法reverse()反转数组项的顺序,sort()比较数组字符串</h4>
+```
+var values = [1,2,3,4,5];
+values.reverse();
+console.log(values);//[ 5, 4, 3, 2, 1 ]
+
+values.sort();
+console.log(values);//[ 1, 12, 14, 3, 5 ]
+
+ function compare(value1,value2){
+ 	if(value1<value2){
+ 		return 1;
+ 	}else if (value1>value2) {
+ 		return -1;
+ 	}else{
+ 		return 0;
+ 	}
+ }
+var values = [1,12,3,14,5];
+values.sort(compare);
+console.log(values);//[ 14, 12, 5, 3, 1 ]
+```
+
+
+<h4>6.操作方法</h4>
+concat()可以基于当前数组中的所有项创建一个新数组。
+```
+var colors = ["red","green","blue"];
+
+var colors2 = colors.concat("yellow",["black","pink"]);
+
+console.log(colors);
+console.log(colors2);
+
+//[ 'red', 'green', 'blue' ]
+//[ 'red', 'green', 'blue', 'yellow', 'black', 'pink' ]
+```
+slice()能够基于当前数组中的一个或者多个项创建一个新数组。可以接受一个参数或者多个参数 (起始和结束位置之间不包括结束位置)
+```
+var colors = ["red","green","blue","black","pink"];
+
+var colors2 = colors.slice(1);
+var colors3 = colors.slice(1,4);
+
+console.log(colors2);
+console.log(colors3);
+// [ 'green', 'blue', 'black', 'pink' ]
+// [ 'green', 'blue', 'black' ]
+```
+splice()算是比较强大的数组方法
+（1）删除：删除任意数量的项，要删除第一项的位置，和要删除的数量
+（2) 插入：第3个参数要插入的项
+（3）替换：先删除再插入
+```
+var colors = ["red","green","blue","black","pink"];
+
+var removed = colors.splice(0,1);
+console.log(colors);
+console.log(removed);
+// [ 'green', 'blue', 'black', 'pink' ]
+// [ 'red' ]
+
+removed = colors.splice(1,0,"yellow","orange");
+console.log(colors);
+console.log(removed);
+// [ 'green', 'yellow', 'orange', 'blue', 'black', 'pink' ]
+// []
+
+removed = colors.splice(1,1,"purple");
+console.log(colors);
+console.log(removed);
+// [ 'green', 'purple', 'orange', 'blue', 'black', 'pink' ]
+// [ 'yellow' ]
+```
+
+
+<h4>7.位置方法：indexOf()和lastIndexOf()</h4>
+
+<h4>8.迭代方法，some every filter forEach map</h4>
+
+<h4>9.缩小方法：reduce() reduceRight()</h4>
+
+#Date()类型
+
+#RegExp()类型
+
+#function类型
+
+
+
