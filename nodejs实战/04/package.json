@@ -1,0 +1,14 @@
+{
+  "name": "04",
+  "version": "1.0.0",
+  "description": "```\r 1.node核心 querystring http net\r 2.社区模块 connect express socket.io node-cgi mongoose\r 3.应用逻辑 http.createServer() app.use()\r ```",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.0.17"
+  }
+}

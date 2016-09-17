@@ -4,8 +4,9 @@
         <meta charset="utf-8">
     </head>
     <body>
-    	<form action="/" method="POST">
-    		<p><input type="text" name="item"></p>
+    	<form action="/" method="POST" enctype="multipart/form-data">
+    		<p><input type="text" name="name"></p>
+    		<p><input type="file" name="file"></p>
     		<p><input type="submit" value="Add item"></p>
     	</form>
     </body>
